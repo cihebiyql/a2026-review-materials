@@ -1,0 +1,301 @@
+﻿case,Q,final_source,mk
+case_001,q1,seedsync_q1 strand_n5\case_001_q1_N5.json,47502
+case_001,q2,seedsync_q2 refined\case_001_q2_N5.json,47502
+case_001,q3,seedsync3 refined2\case_001_q3_N5.json,47502
+case_002,q1,reconcile final_seeds,60254
+case_002,q2,reconcile final_seeds,53799
+case_002,q3,reconcile final_seeds,53799
+case_003,q1,reconcile final_seeds,464504
+case_003,q2,reconcile_runs_tree_verified,235418
+case_003,q3,seedsync3 refined8\case_003_q3_N5.json,221809
+case_004,q1,seedsync_q1 final_seeds,88341
+case_004,q2,mechA_deep_seq B=22 L=2,85236
+case_004,q3,mechA_p3,85236
+case_005,q1,reconcile final_seeds,76076
+case_005,q2,reconcile final_seeds,46313
+case_005,q3,seedsync3 refined8\case_005_q3_N5.json,42227
+case_006,q1,reconcile final_seeds,26961
+case_006,q2,reconcile final_seeds,19736
+case_006,q3,reconcile refined8,17983
+case_007,q1,seedsync_q1 final_seeds,203834
+case_007,q2,mechA_deep_seq B=22 L=2,197052
+case_007,q3,mechA_p3,197052
+case_008,q1,seedsync_q1 strand_n5\case_008_q1_N5.json,100603
+case_008,q2,mechA_deep B=48 L=4,63883
+case_008,q3,mechA_deep B=48 L=4,63883
+case_009,q1,reconcile final_seeds,88391
+case_009,q2,mechA_deep_seq B=4 L=3,82666
+case_009,q3,reconcile refined8,69144
+case_010,q1,reconcile final_seeds,24871
+case_010,q2,reconcile final_seeds,18737
+case_010,q3,seedsync3 final_seeds_q3,18683
+case_011,q1,seedsync_q1 final_seeds,46880
+case_011,q2,reconcile final_seeds,39441
+case_011,q3,reconcile final_seeds,39441
+case_012,q1,reconcile final_seeds,15486
+case_012,q2,reconcile final_seeds,13536
+case_012,q3,seedsync3 final_seeds_q3,13457
+case_013,q1,seedsync_q1 final_seeds,55154
+case_013,q2,reconcile final_seeds,54117
+case_013,q3,"mechA_v3 ('by_depth', 4, 2)",53825
+case_014,q1,seedsync_q1 final_seeds,3631292
+case_014,q2,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,3552237
+case_014,q3,reconcile_runs_tree_verified,3683682
+case_015,q1,reconcile final_seeds,43263
+case_015,q2,reconcile final_seeds,37891
+case_015,q3,seedsync3 final_seeds_q3,37891
+case_016,q1,seedsync_q1 strand_n5\case_016_q1_N5.json,3397411
+case_016,q2,reconcile final_seeds,2240433
+case_016,q3,seedsync3 final_seeds_q3,2240433
+case_017,q1,reconcile final_seeds,34707
+case_017,q2,reconcile final_seeds,32743
+case_017,q3,reconcile final_seeds,32743
+case_018,q1,seedsync_q1 final_seeds,213680
+case_018,q2,absorb_compliant,197324
+case_018,q3,absorb_compliant,198788
+case_019,q1,reconcile final_seeds,17993
+case_019,q2,mechA_deep_seq B=110 L=2,15040
+case_019,q3,seedsync3 refined\case_019_q3_N5.json,16310
+case_020,q1,seedsync_q1 strand_n5\case_020_q1_N5.json,107954
+case_020,q2,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,107111
+case_020,q3,reconcile_runs_tree_verified,107650
+case_021,q1,seedsync_q1 final_seeds,1243902
+case_021,q2,mechA_deep_seq B=4 L=3,1249261
+case_021,q3,reconcile final_seeds,1249380
+case_022,q1,reconcile final_seeds,12133
+case_022,q2,reconcile final_seeds,11654
+case_022,q3,seedsync3 final_seeds_q3,11654
+case_023,q1,reconcile final_seeds,26417
+case_023,q2,seedsync_q2 final_seeds,23240
+case_023,q3,seedsync3 final_seeds_q3,23240
+case_024,q1,seedsync_q1 strand_n5\case_024_q1_N5.json,1124755
+case_024,q2,reconcile final_seeds,743336
+case_024,q3,seedsync3 final_seeds_q3,743336
+case_025,q1,seedsync_q1 final_seeds,983288
+case_025,q2,mechA_deep_seq B=14 L=2,943120
+case_025,q3,mechA_p3,943120
+case_026,q1,reconcile final_seeds,41277
+case_026,q2,reconcile_runs_tree_verified,34778
+case_026,q3,seedsync3 refined8\case_026_q3_N5.json,26739
+case_027,q1,reconcile_honest_reeval,558753
+case_027,q2,seedsync_q2 strand_n5\case_027_q2_N5.json,460949
+case_027,q3,seedsync3 strand_n5\case_027_q3_N5.json,460949
+case_028,q1,seedsync_q1 final_seeds,9126544
+case_028,q2,reconcile_runs_tree_verified,8056841
+case_028,q3,seedsync3 final_seeds_q3,8049671
+case_029,q1,reconcile final_seeds,11644
+case_029,q2,reconcile final_seeds,8406
+case_029,q3,seedsync3 final_seeds_q3,8215
+case_030,q1,seedsync_q1 final_seeds,575593
+case_030,q2,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,559258
+case_030,q3,absorb_compliant,561153
+case_031,q1,seedsync_q1 final_seeds,299067
+case_031,q2,reconcile final_seeds,285308
+case_031,q3,seedsync3 final_seeds_q3,285308
+case_032,q1,reconcile final_seeds,10192
+case_032,q2,reconcile_runs_tree_verified,12125
+case_032,q3,reconcile refined8,10167
+case_033,q1,seedsync_q1 final_seeds,367538
+case_033,q2,seedsync_q2 final_seeds,354075
+case_033,q3,seedsync3 final_seeds_q3,354075
+case_034,q1,seedsync_q1 final_seeds,177666
+case_034,q2,absorb_compliant,163258
+case_034,q3,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,165016
+case_035,q1,reconcile final_seeds,89447
+case_035,q2,reconcile final_seeds,78524
+case_035,q3,seedsync3 refined8\case_035_q3_N5.json,76788
+case_036,q1,seedsync_q1 strand_n5\case_036_q1_N5.json,187182
+case_036,q2,seedsync_q2 refined\case_036_q2_N5.json,187182
+case_036,q3,seedsync3 refined\case_036_q3_N5.json,187182
+case_037,q1,seedsync_q1 final_seeds,43013
+case_037,q2,seedsync_q2 refined\case_037_q2_N5.json,43013
+case_037,q3,seedsync3 refined\case_037_q3_N5.json,43013
+case_038,q1,reconcile final_seeds,291927
+case_038,q2,reconcile_runs_tree_verified,274321
+case_038,q3,absorb_compliant,271223
+case_039,q1,reconcile final_seeds,315610
+case_039,q2,"mechA_v4 ('min_id', 8, 3, False, True)",309829
+case_039,q3,seedsync3 final_seeds_q3,293525
+case_040,q1,reconcile final_seeds,100515
+case_040,q2,reconcile final_seeds,88594
+case_040,q3,seedsync3 final_seeds_q3,88528
+case_041,q1,seedsync_q1 final_seeds,1220843
+case_041,q2,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,1197056
+case_041,q3,absorb_compliant,1200116
+case_042,q1,seedsync_q1 final_seeds,347324
+case_042,q2,reconcile_runs_tree_verified,342415
+case_042,q3,absorb_compliant,341473
+case_043,q1,reconcile final_seeds,219345
+case_043,q2,reconcile final_seeds,191753
+case_043,q3,reconcile final_seeds,191297
+case_044,q1,reconcile final_seeds,87560
+case_044,q2,reconcile final_seeds,36988
+case_044,q3,seedsync3 final_seeds_q3,36573
+case_045,q1,seedsync_q1 strand_n5\case_045_q1_N5.json,26558
+case_045,q2,reconcile final_seeds,25694
+case_045,q3,seedsync3 final_seeds_q3,25694
+case_046,q1,reconcile final_seeds,100302
+case_046,q2,verified_detail,74398
+case_046,q3,seedsync3 refined2\case_046_q3_N5.json,63424
+case_047,q1,seedsync_q1 final_seeds,304674
+case_047,q2,reconcile final_seeds,203922
+case_047,q3,seedsync3 refined8\case_047_q3_N5.json,193029
+case_048,q1,seedsync_q1 final_seeds,212734
+case_048,q2,reconcile final_seeds,143722
+case_048,q3,mechA_p3,137414
+case_049,q1,reconcile final_seeds,129746
+case_049,q2,reconcile final_seeds,80512
+case_049,q3,reconcile refined8,79789
+case_050,q1,reconcile final_seeds,88020
+case_050,q2,reconcile final_seeds,59376
+case_050,q3,seedsync3 refined8\case_050_q3_N5.json,59181
+case_051,q1,seedsync_q1 strand_n5\case_051_q1_N5.json,267458
+case_051,q2,seedsync_q2 final_seeds,178070
+case_051,q3,seedsync3 refined8\case_051_q3_N5.json,178070
+case_052,q1,reconcile final_seeds,38553
+case_052,q2,reconcile_runs_tree_verified,37293
+case_052,q3,seedsync3 refined\case_052_q3_N5.json,34629
+case_053,q1,reconcile_honest_reeval,538726
+case_053,q2,reconcile_runs_tree_verified,399608
+case_053,q3,reconcile_runs_tree_verified,374425
+case_054,q1,reconcile final_seeds,463077
+case_054,q2,reconcile_runs_tree_verified,280680
+case_054,q3,reconcile_runs_tree_verified,273282
+case_055,q1,reconcile final_seeds,25484
+case_055,q2,reconcile_runs_tree_verified,27351
+case_055,q3,seedsync3 final_seeds_q3,23642
+case_056,q1,reconcile final_seeds,233361
+case_056,q2,reconcile final_seeds,124664
+case_056,q3,seedsync3 final_seeds_q3,124066
+case_057,q1,reconcile final_seeds,13939
+case_057,q2,reconcile final_seeds,12813
+case_057,q3,seedsync3 final_seeds_q3,12813
+case_058,q1,seedsync_q1 final_seeds,943156
+case_058,q2,mechA_deep_seq B=196 L=3,906467
+case_058,q3,seedsync3 final_seeds_q3,937354
+case_059,q1,seedsync_q1 final_seeds,150782
+case_059,q2,seedsync_q2 refined\case_059_q2_N5.json,150782
+case_059,q3,seedsync3 final_seeds_q3,150736
+case_060,q1,seedsync_q1 final_seeds,185416
+case_060,q2,seedsync_q2 final_seeds,179432
+case_060,q3,seedsync3 final_seeds_q3,178271
+case_061,q1,reconcile final_seeds,19795
+case_061,q2,reconcile final_seeds,19061
+case_061,q3,seedsync3 final_seeds_q3,19042
+case_062,q1,reconcile final_seeds,645102
+case_062,q2,seedsync_q2 final_seeds,587612
+case_062,q3,seedsync3 final_seeds_q3,587612
+case_063,q1,reconcile final_seeds,236022
+case_063,q2,reconcile final_seeds,227101
+case_063,q3,seedsync3 final_seeds_q3,227101
+case_064,q1,reconcile final_seeds,16589
+case_064,q2,reconcile_runs_tree_verified,14916
+case_064,q3,reconcile refined8,14656
+case_065,q1,reconcile final_seeds,12238
+case_065,q2,reconcile final_seeds,10277
+case_065,q3,seedsync3 final_seeds_q3,10277
+case_066,q1,reconcile final_seeds,144086
+case_066,q2,reconcile final_seeds,126172
+case_066,q3,seedsync3 final_seeds_q3,125879
+case_067,q1,reconcile_honest_reeval,13760441
+case_067,q2,reconcile_runs_tree_verified,12588983
+case_067,q3,reconcile_runs_tree_verified,12554416
+case_068,q1,reconcile final_seeds,282097
+case_068,q2,reconcile_runs_tree_verified,167859
+case_068,q3,reconcile_runs_tree_verified,159144
+case_069,q1,reconcile final_seeds,11244
+case_069,q2,reconcile final_seeds,8920
+case_069,q3,seedsync3 final_seeds_q3,8631
+case_070,q1,reconcile final_seeds,27133
+case_070,q2,reconcile final_seeds,24440
+case_070,q3,seedsync3 final_seeds_q3,24414
+case_071,q1,reconcile final_seeds,9994
+case_071,q2,reconcile final_seeds,7578
+case_071,q3,seedsync3 final_seeds_q3,7588
+case_072,q1,seedsync_q1 final_seeds,4876863
+case_072,q2,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,4696136
+case_072,q3,absorb_compliant,4710456
+case_073,q1,reconcile_honest_reeval,3249298
+case_073,q2,reconcile_runs_tree_verified,1854429
+case_073,q3,reconcile_runs_tree_verified,1768210
+case_074,q1,seedsync_q1 final_seeds,345696
+case_074,q2,seedsync_q2 final_seeds,335984
+case_074,q3,seedsync3 final_seeds_q3,334863
+case_075,q1,seedsync_q1 final_seeds,712889
+case_075,q2,reconcile_runs_tree_verified,427591
+case_075,q3,reconcile_runs_tree_verified,422094
+case_076,q1,seedsync_q1 final_seeds,1288446
+case_076,q2,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,1227055
+case_076,q3,absorb_compliant,1230171
+case_077,q1,reconcile_honest_reeval,183092
+case_077,q2,reconcile final_seeds,107630
+case_077,q3,seedsync3 final_seeds_q3,106363
+case_078,q1,seedsync_q1 final_seeds,488721
+case_078,q2,reconcile final_seeds,477567
+case_078,q3,seedsync3 final_seeds_q3,453638
+case_079,q1,seedsync_q1 final_seeds,6024018
+case_079,q2,reinforce_assign B=96 L=4 iters=50 N=128 seed=0 stub=False,5981709
+case_079,q3,absorb_compliant,5997436
+case_080,q1,reconcile_honest_reeval,117985
+case_080,q2,verified_detail,93299
+case_080,q3,seedsync3 final_seeds_q3,68172
+case_081,q1,reconcile final_seeds,43384
+case_081,q2,reconcile_runs_tree_verified,31373
+case_081,q3,reconcile_runs_tree_verified,31373
+case_082,q1,reconcile final_seeds,328920
+case_082,q2,reconcile_runs_tree_verified,209247
+case_082,q3,reconcile_runs_tree_verified,206093
+case_083,q1,reconcile_honest_reeval,574144
+case_083,q2,reconcile_runs_tree_verified,200760
+case_083,q3,reconcile_runs_tree_verified,198206
+case_084,q1,absorb_compliant,403428
+case_084,q2,mechA_deep_seq B=216 L=4,283824
+case_084,q3,reinforce_assign B=220 L=4 iters=50 N=128 seed=0 stub=False,283824
+case_085,q1,seedsync_q1 final_seeds,1468896
+case_085,q2,reconcile_runs_tree_verified,848638
+case_085,q3,reconcile_runs_tree_verified,834161
+case_086,q1,reconcile final_seeds,95689
+case_086,q2,verified_detail,58160
+case_086,q3,seedsync3 refined8\case_086_q3_N5.json,53232
+case_087,q1,reconcile final_seeds,838095
+case_087,q2,reconcile_runs_tree_verified,853863
+case_087,q3,reconcile_runs_tree_verified,840428
+case_088,q1,reconcile final_seeds,175173
+case_088,q2,reconcile final_seeds,102798
+case_088,q3,seedsync3 final_seeds_q3,102011
+case_089,q1,seedsync_q1 strand_n5\case_089_q1_N5.json,147432
+case_089,q2,reconcile_runs_tree_verified,123062
+case_089,q3,reconcile_runs_tree_verified,123062
+case_090,q1,reconcile final_seeds,339499
+case_090,q2,reconcile final_seeds,276685
+case_090,q3,reconcile final_seeds,247585
+case_091,q1,seedsync_q1 final_seeds,1901896
+case_091,q2,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,1848400
+case_091,q3,absorb_compliant,1854298
+case_092,q1,reconcile_honest_reeval,2320718
+case_092,q2,reconcile_runs_tree_verified,806778
+case_092,q3,reconcile_runs_tree_verified,804952
+case_093,q1,seedsync_q1 final_seeds,15876
+case_093,q2,reconcile_runs_tree_verified,15876
+case_093,q3,reconcile_runs_tree_verified,15876
+case_094,q1,reconcile final_seeds,22552
+case_094,q2,reconcile_runs_tree_verified,19895
+case_094,q3,reconcile_runs_tree_verified,19895
+case_095,q1,seedsync_q1 strand_n5\case_095_q1_N5.json,420852
+case_095,q2,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,263772
+case_095,q3,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,263772
+case_096,q1,reconcile final_seeds,27135
+case_096,q2,reconcile final_seeds,24217
+case_096,q3,seedsync3 final_seeds_q3,24217
+case_097,q1,seedsync_q1 final_seeds,2096179
+case_097,q2,reconcile_runs_tree_verified,2102348
+case_097,q3,reconcile_runs_tree_verified,2102250
+case_098,q1,reconcile final_seeds,76750
+case_098,q2,reconcile final_seeds,51910
+case_098,q3,seedsync3 final_seeds_q3,51702
+case_099,q1,seedsync_q1 final_seeds,333534
+case_099,q2,mechA_deep_seq B=48 L=3,327029
+case_099,q3,absorb_compliant,326002
+case_100,q1,reconcile final_seeds,53395
+case_100,q2,verified_detail,51921
+case_100,q3,seedsync3 refined8\case_100_q3_N5.json,41015

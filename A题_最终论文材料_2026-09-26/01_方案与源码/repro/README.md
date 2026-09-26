@@ -115,3 +115,15 @@ logit 范数正则 c=0.001）。训练产物为 `{case}_q{Q}_logits.json`（本�
 ```
 即 `A2026_ROOT=工作区`。官方附件(评估器 code/ 与用例 data/)仍需按题面自备并设 `A2026_ATT`。
 新增脚本: v5_isolated_eval(隔离评估)/final_table+final_worker(终版总表)/reconcile_pool(池对账)/package_plans(附录B打包)/make_gap_table/v5_ablation(消融)/paper_figs(三图)/pool_harvest+pool_worker(池次指标)。
+
+## 从零一键复现(2026-09-26 终版补齐)
+
+单核基准已随包: `deps/singlecore/*_sc.json`(100 例, 官方评估器产物, 亦可自行用附件 singlecore_evaluate.py 重算)。
+部署后按序执行即可全量复现(在线轨全部数字):
+```
+# 0) 布局: 工作区/{fast_eval,v3_solver,n5_push/superlinear_analysis(含deps与池方案),singlecore,repro各py}
+export A2026_ROOT=工作区 A2026_ATT=官方附件 A2026_SC=工作区/singlecore A2026_LOGITS=logits目录
+# 1) 管线自测(bit-exact)  2) 全库训练(可选, logits已随包; 训练需池种子=champion_pool)
+# 3) 全库求解(1200)       4) 消融批            5) final_table.py 总表      6) paper_figs.py 三图
+```
+复现层级: 在线轨/评估/表格 100% 逐位复现(同种子); 最终方案轨为"方案→成绩"可验证(方案随包)。
