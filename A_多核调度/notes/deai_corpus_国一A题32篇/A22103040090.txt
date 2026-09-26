@@ -1,0 +1,1756 @@
+0 
+  
+   
+   
+ 
+ 
+中国研究生创新实践系列大赛 
+ 中国光谷·“华为杯”第十九届中国研究生 
+数学建模竞赛 
+ 
+学    校 
+ 
+南通大学 
+参赛队号 22103040090 
+队员姓名 
+1.  刘微雪 
+2. 黄同辉 
+3.  章虹晨 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 
+中国研究生创新实践系列大赛 
+ 中国光谷·“华为杯”第十九届中国研究生 
+数学建模竞赛 
+ 
+题 目          移动场景超分辨定位问题 
+摘       要： 
+随着自动驾驶兴起，移动场景中目标定位性能需求不断地上升，以保障驾驶安全。毫
+米波FMCW 雷达具有不受浓雾、雨、雪等天气条件影响，可同时测量目标的距离、速度
+与角度等目标信息，广泛应用于自动驾驶定位技术领域中。目前毫米波FMCW 雷达采用
+虚拟天线阵列技术对目标的方位角度进行定位。但当多个目标互相靠近时，雷达定位的结
+果存在重叠。本文针对移动场景下，对毫米波FMCW 雷达目标超分辨定位问题进行了建
+模研究。 
+无噪条件下的目标超分辨定位（任务一）根据问题的要求，首先，对数据在快时间域
+进行距离向快速傅立叶变换FFT；接着在距离向上进行目标搜索，得到目标距离所在位置；
+依据目标在距离向的分布位置，提取相应的天线阵元数据；在此基础上，提出了基于DFT
+方位频谱插值方法与L1 正则化最小二乘法模型，对目标进行超分辨增强处理；接着提出
+了方位向目标峰值检测方法，提取目标精细化方位信息。通过提出的两种方法，尤其是基
+于L1 正则化最小二乘法模型可突破天线阵列物理极限分辨率，从原先1.33° 提升至0.4°。
+两个目标的位置信息分别为 （7 米，0.505°）与（7 米， -0.360°），并按要求生成显示了
+目标二维极坐标图。 
+噪声条件下的目标超分辨定位（任务二）根据问题的要求，数据受噪声污染后，目标
+信噪比下降，需对目标超分辨模型算法进行改进。具体地，在任务一模型算法基础上，增
+加了恒虚警率CFAR 方法在距离向上进行目标检测，得到目标距离向位置；设计了低通平
+滑滤波，对DFT 插值方法进行了改进；在原L1 正则化的最小二乘法模型中引入了噪声项
+并重新推导了求解过程。由实验结果可知，改进的两种方法具有抗噪声的鲁棒性能，超分
+辨处理提取后，得到两个目标的位置信息分别为 （8.19 米，0.5045°）与（8.19 米，-0.3604°），
+并按要求生成目标的二维极坐标显示图。 
+移动场景中在线低复杂度算法目标定位与轨迹估计（任务三）根据问题的要求，提出
+了在线低复杂度算法，实现了算法各个步骤流程。具体地，分析了提出方法的复杂度，两
+种方法的主要运算均为FFT 变换，满足在线低复杂度运算要求；对于多帧在线目标超分辨
+定位，考虑到多个目标运动过程中可能存在相向运动过程，目标在交汇时方位角度重叠的
+情况，因此在距离向和方位向的目标峰值检测均采用CFAR 进行检测，并把中间保护单元
+设置为0 个单元；另外，以相邻两帧检测点的最近距离准则，设计了相邻帧目标匹配方法；
+最后按要绘制了两个目标的运动轨迹。 
+天线阵元存在误差下的目标超分辨定位（任务四）根据问题的要求，分别分析了受天
+线噪声影响后数据在距离向和方位向的噪声水平；在任务二模型算法的基础上分析了提出
+的DFT 插值方法以及改进L1 正则最小二乘模型算法对本任务问题求解的适用性；结果表
+明两者模型算法具有良好的噪声抑制性能，可在噪声的环境下获得稳定准确的目标超分辨
+2 
+定位性能；进一步地，进行了天线阵元丢失数据条件下的目标超分辨定位扩展实验。扩展
+实验表明两种方法均能在丢失阵元数据的情况下，准确定位目标。提出的DFT 插值与L1
+正则化最小二乘法模型算法可靠有效性在于两种方法在运算过程中对目标信号进行了相
+参插值，进而保持了目标信号相位和能量。另外，提出的两种算法主要运算为均为FFT，
+结合当前毫米波雷达芯片硬件资源，可编写成芯片可运行的代码，具有较好的市场应用推
+广价值。 
+关键词： FMCW，毫米波雷达，定位，虚拟天线阵列，超分辨，恒虚警率，L1 正则化，
+最小二乘法，DFT，插值。 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+目录
+1. 任务背景和问题重述. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1 . 1 任务背景. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1 . 2 问题重述. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2. 模型假设和符号说明. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2 . 1 模型假设. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+2 . 2 符号说明. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7
+3. 任务一、无噪条件下的目标超分辨定位. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3 . 1 任务一问题分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8
+3 . 2 基于DFT 的方位频谱插值方法. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3 . 3 基于L1 正则化的最小二乘法模型. . . . . . . . . . . . . . . . . . . . . . . . . . .
+9
+3 . 4 模型与算法结果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+3 . 5 任务一结果总结. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+4. 任务二、噪声条件下的目标超分辨定位. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+4 . 1 任务二问题分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+4 . 2 基于恒虚警率CFAR 的距离向目标检测. . . . . . . . . . . . . . . . . . . . . . . 16
+4 . 3 基于平滑滤波与DFT 方位频谱插值改进方法. . . . . . . . . . . . . . . . . . 17
+4 . 4 噪声条件下基于L1 正则化的最小二乘法模型改进及求解. . . . . . . 17
+4 . 5 模型结果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+4 . 6 任务二模型总结与评价. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+5. 任务三、移动场景中在线低复杂度算法目标定位与轨迹估计. . . . . . . . . . . 21
+5 . 1 任务三问题分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+5 . 2 在线低复杂度算法. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+5 . 3 目标运动轨迹计算结果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+5 . 4 任务三算法结果总结. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28
+6. 任务四、天线阵元存在误差下的目标超分辨定位. . . . . . . . . . . . . . . . . . . . . 29
+6 . 1 任务四问题分析. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29
+6 . 2 模型与算法. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31
+6 . 3 模型结果. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 32
+6 . 4 模型在天线阵元缺失数据的目标定位超分辨扩展实验. . . . . . . . . . . 32
+6 . 5 任务四模型结果总结与评价. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+7. 参考文献. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+附录A 程序代码. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+3
+1. 任务背景和问题重述
+1 . 1 任务背景
+自动驾驶可有效提高交通效率和交通安全，已成为智能交通发展的重要趋
+势[1]。自动驾驶车辆上路行驶的前提是安全可靠，其首要基础任务是在移动环
+境中对车辆周围交通目标精确测量定位。目前，自动驾驶移动场景定位主要采用
+可见光、激光、毫米波雷达等传感器。与其他传感器相比，毫米波雷达能够不受
+太阳光、雨雪雾等复杂天气条件的影响，可对交通环境进行全天时全天候的测量
+感知，是实现全自动驾驶最为重要的传感器之一[2]。
+毫米波雷达通常采用发射调频连续波(Frequency modulated continuous wave,
+FMCW) 信号实现移动场景目标的定位。具体而言，雷达按照一定周期重复发射
+FMCW Chrip 信号，对目标回波在快时间域内进行傅立叶变换得到目标的径向距
+离位置，同时对相邻回波在慢时间域内进行相参处理得到目标的相对移动速度。
+在目标的方位角度定位方面，雷达采用时分复用的多输入多输出天线发射与接
+收信号，形成一个大孔径的虚拟天线阵列。
+图1-1
+虚拟天线阵列示意图
+4
+以图1-1为例，间距为2λ 的发射两个阵元依次发射信号，再由间距为0.5λ
+的四个阵元接收，进而形成间距为0.5λ 的八个阵元虚拟天线阵列，其中λ 为雷
+达发射波的中心波长。在以雷达为中心原点的极坐标系中，假设某一目标的坐
+标为(R, θ), 虚拟天线阵元的间距为d, 阵元总数量为Na, 阵列总长度为L。通过
+几何关系可知，对于同一个目标，其第n 个阵元接收信号的方位相位变化项为
+ej 2π
+λ ndsinθ。实际上，方位空间存在多个目标，假设目标总数量为M, 则FMCW 雷
+达的第n 个阵元接收信号可表达为
+s(n, t) =
+M
+X
+i=1
+aiej( 2π
+λ ndsinθi−2Ri
+c krt)
+(1)
+式中t 为一个Chirp 周期内的快时间，c 为电磁波传播的速度，ai 与θi 分别为是
+第i 个目标的强度与方位角度，Ri 为第i 个目标的径向距离。
+由上式可知，雷达目标定位是对目标距离和角度估计的问题。目标的距离可
+在快时间域内进行傅立叶变换得到，距离分辨率与信号的带宽B 成反比，为
+c
+2B。
+由于毫米波FMCW 雷达信号带宽大，因此距离分辨率较高[3]。在方位角度上，
+雷达虽然通过了虚拟天线阵列对目标的方位角度进行了多次空间采样，但其角
+度分辨率为
+λ
+Lcosθ。当天线阵元间隔为λ
+2 及目标方位角度为零时，雷达检测目标
+具有最佳方位角度分辨率为
+2
+Na 弧度[4]。
+在自动驾驶等移动场景中，提升目标的定位分辨率对自动驾驶安全具有重
+要意义。本题所指的目标超分辨是指，在多物体信号叠加时的最大化物体定位精
+度。基于毫米波FMCW 雷达对移动场景超分辨率定位，需要设计鲁棒的低运算
+复杂度在线算法，以实时超分辨定位到物体。
+目前FMCW 雷达为了减小强目标信号的旁瓣对微弱信号的影响，现有方法
+通过加对称窗函数[5]，再对距离和方位向进行两维快速傅立叶变换（Fast Fourier
+Transformation，FFT) 来进行目标的距离和角度估计。该方法运算简单、复杂度
+低，但加窗后会带来目标能量的主瓣宽度扩展，进而导致目标的分辨率下降，不
+能实现目标的超分辨。传统的谱估计算法有最大似然估计方法、最小方差无失真
+响应（Minimum variance distortionless response，MVDR)）、多重信号分类(Multiple
+signal classification，MUSIC）算法、ESPRIT（Estimation of Signal Parameters via
+Rotational Invariance Technique）、基于最大熵方法等[5]。这些谱估计方法运算量
+大，比如多重信号分类MUSIC 算法通过信号空间和噪声空间的估计，通过两者
+的正交特性实现目标的超分辨定位。此外，作为稀疏信号处理中的一类，现有的
+压缩感知算法利用了空间物体分布的稀疏性，可以有效提升分辨率，但压缩感知
+贪婪的求解算法不利于低复杂度算法的开发[6]。
+综上所述，面对日益增长的目标超分辨定位需求，如何通过建模并设计相应
+的算法提高分辨率是一个亟待解决的问题。
+1 . 2 问题重述
+本文试图解决移动场景下目标超分辨定位问题，对题目提供对数据进行处
+理，建立精确的定位模型，同时通过推导开发数学模型方法自适应噪声环境，最
+终在噪声污染条件下对目标超分辨定位和动态轨迹估计。具体地，本文需要完成
+以下四个任务：
+任务一、无噪条件下的目标超分辨定位。
+针对提供的无噪声仿真数据，建立定位模型，计算出物体相对位置，并以二
+维极坐标图（横坐标表示距离，纵坐标表示角度）展示。
+5
+任务二、噪声条件下的目标超分辨定位。
+在任务一的基础上，针对提供的高斯噪声仿真数据，利用一个Chirp 周期内
+的中频信号，设计超分辨算法精确定位多个物体。
+任务三、移动场景中在线低复杂度算法目标定位与轨迹估计。
+设计在线低复杂度算法，利用一帧中频信号来超分辨定位，并且通过数值实
+验验证算法性能。针对提供的一帧数据，计算出物体相对运动轨迹，并以二维图
+（横坐标表示距离，纵坐标表示角度）展示。
+任务四、天线阵元存在误差下的目标超分辨定位。
+不同于任务二的噪声条件，考虑实际场景中由于老化等原因，天线阵列对于
+自身的定位也会有误差。针对提供的仿真数据，设计提升定位算法的鲁棒性的改
+进算法。
+6
+2. 模型假设和符号说明
+2 . 1 模型假设
+假设一、雷达天线与目标之间的相对距离满足天线远场测量条件。
+假设二、雷达系统参数满足实验条件需求，对所测的目标不会产生距离模糊
+和速度模糊。
+假设三、雷达天线阵元之间不存在串扰情况，隔离度良好。问题二与问题四
+的天线噪声是由自身通道或者天线老化等产生的, 从而导致天线阵元数据受到噪
+声污染。
+2 . 2 符号说明
+表1
+符号说明
+符号
+含义
+L
+天线阵列有效孔径长度
+d
+虚拟天线阵列阵元间隔
+Na
+虚拟天线阵列阵元数量
+λ
+雷达工作的中心波长
+kr
+FMCW 信号调频率
+A
+离散傅立叶变换矩阵
+AH
+离散傅立叶逆变换矩阵
+I
+单位矩阵
+c
+电磁波传播速度3 × 108(m/s)
+R
+目标的径向距离
+θ
+目标的方位角度
+∥· ∥2
+L2 范数
+∥· ∥1
+L1 范数
+7
+3. 任务一、无噪条件下的目标超分辨定位
+3 . 1 任务一问题分析
+任务一要求对提供的无噪声仿真数据，建立定位模型，计算出物体相对位
+置，并以二维极坐标图（横坐标表示距离，纵坐标表示角度）展示。
+为了降低求解运算复杂度，把雷达二维数据根据目标分布分解成距离向和
+方位向的一维数据处理，这可避免无目标区域的冗余运算，提高目标超分辨定位
+效率。首先，对快时间域数据进行距离向离散傅立叶变换(Discrete Fourier Trans-
+formation, DFT), 具体可通过快速傅立叶变换FFT 实现；接着，在距离向搜索目
+标，得到目标距离向位置；依据目标距离向分布的位置，提取相应目标的天线阵
+元数据；在此基础上，对目标的方位进行超分辨算法处理，进而对方位向目标峰
+值检测，最终提取输出目标位置信息。具体的流程如图3-1所示。
+图3-1
+无噪条件下的目标超分辨定位流程图
+对公式(1) 进行距离向傅立叶变换，可得
+S(n, R) =
+M
+X
+i=1
+aiej 2π
+λ ndsinθiδ(R −2Ri
+c kr)
+(2)
+式中δ 为狄拉克函数。
+8
+由上式可知，在方位-距离向域中，由于本题数据是无噪声的，因此可采用
+简单的峰值检测法进行判断，得到距离向出现的目标。
+针对无噪条件下的目标超分辨定位，本文提出两种定位方法。由公式(1) 可
+知，目标信号在快时间上是不同距离处的复正弦信号叠加，在方位向上是不同方
+位角度的复正弦信号叠加。本任务要求关键在于开发低复杂度的算法，考虑到处
+理复正弦信号最有效和简单的方法是快速傅立叶变换FFT，因此本文提出的这
+两种定位方法都基于快速傅立叶变换。第一种方法是利用FFT 对目标方位频谱
+进行插值，第二种方法是基于L1 正则化的最小二乘法模型。
+3 . 2 基于DFT 的方位频谱插值方法
+为了简化模型的推导，这里以第i 个方位目标为例，阐述相关模型推导。假
+设第i 个方位目标信号的径向距离为Ri，其方位目标信号可表达为：
+Si(n) = aiej 2π
+λ ndsinθiδ(R −2Ri
+c kr), 1 ≤n ≤Na.
+(3)
+由上式可知，第i 个目标信号的方位空间频率为d
+λsinθi。假设DFT 插值点数
+为M −Na 个，则扩展一维方位信号Si(n) = 0, Na + 1 ≤n ≤M，则目标的方
+位角度分析分辨率提升了M
+Na。接下来对信号Si(n) 进行快速傅立叶变换为：
+Si(θ) = FFT(Si(n))
+(4)
+上式中FFT 为DFT 的快速傅立叶变换。通过上式处理后，可得到方位向分辨率
+增强目标信号。
+3 . 3 基于L1 正则化的最小二乘法模型
+由上述假设可知信号Si(n) 长度为Na, 对该信号进行M 点(M ≥N) 的逆
+傅立叶变换可定义如下:
+s = Ax
+(5)
+逆傅立叶变换A 矩阵可表达为
+A = 1
+M
+
+
+1
+1
+· · ·
+1
+1
+e
+j2π
+M
+· · ·
+e
+j(M−1)2π
+M
+...
+...
+...
+1
+e
+j(Na−1)2π
+M
+· · ·
+e
+j(Na−1)(M−1)2π
+M
+
+
+s = [Si(0), Si(1), · · · , Si(Na−1)]T，DFT 系数向量x = [x(0), x(1), · · · , x(M −1)]T。
+则DFT 系数可表达为
+x = AHs
+(6)
+其中有
+AH =
+
+
+1
+1
+· · ·
+1
+1
+e
+−j2π
+M
+· · ·
+e
+−j(Na−1)2π
+M
+...
+...
+...
+1
+e
+−j(M−1)2π
+M
+· · ·
+e
+−j(M−1)(Na−1)2π
+M
+
+
+因此有AAH = I。
+由上讨论可知，目标信号在方位向上是不同方位角度的复正弦信号叠加。在
+无噪声条件下，目标的方位的超分辨问题可利用L1 范数正则化，转化成最小二
+乘问题，具体描述为
+9
+arg min
+x
+∥x∥1
+s.t.
+s = Ax
+(7)
+进一步采用分离变量法，上式可等效为：
+arg min
+x
+∥x∥1
+s.t.
+s = Ax
+u-x = 0
+(8)
+通过增扩拉格朗日方法，可建立以下目标优化函数模型
+J(x,u) = η1∥x∥1 + η1(x-u) + 0.5µ∥u −x∥2
+2 + η2(Ax-s)
+(9)
+上式中µ, η1 与η2 为模型的参数。
+上式可通过引入一个中间向量d 进行交替求解, 求解表达式为
+{xk+1, uk+1} = argmin η1∥xk∥1 + 0.5µ∥uk −xk −dk∥2
+2 + η2(Axk −s)
+dk+1 = dk −(uk −xk)
+(10)
+上式中k 为迭代过程。
+由于DFT 变换矩阵为紧框架，即AAH = I，令v = u −d ，上式求解过程可
+简化为
+vk+1 = soft(xk + dk, η/µ) −dk
+dk+1 = 1
+M (AHs −vk)
+xk+1 = dk + vk
+(11)
+上式中soft 为软域值操作运算，其定义为
+soft(x, τ) = x · max (1 −τ/|x|, 0)
+(12)
+由求解过程公式(11) 可知，该算法只有一步存在DFT 变换，因此运算量小。
+另外软域值操作运算可保持信号的相位信息，有利用阵列信号相位重建恢复。
+最终可得到超分辨增强后的雷达方位角度信号
+bs = Axk
+(13)
+3 . 4 模型与算法结果
+首先考虑模型在迭代过程收敛方面，因为L1 正则化的最小二乘法模型处理
+的信号为复正弦信号，因此该算法可快速收敛。图3-2为处理本任务提供的数据
+收敛过程。
+为了验证提出方法的有效性，首先模拟仿真了100 个阵元的一维天线阵列
+信号对比实验。利用点数为256 的DFT 对雷达的方位信号进行构建DFT 变换矩
+阵，结果如图3-3所示。由对比结果可知，提出的方法有效增强了目标方位分辨
+率。
+接下来展示对提供数据的处理结果。提供的数据的天线阵元数量为86 个，
+模型算法处理过程中DFT 点数设置为512 个。图3-4为模型与算法结果对比，左
+边一列是整体视野范围内雷达数据处理后的图，右边一列为左边目标的细节放
+大。由图可知，提出的两种方法都可把原本无法分辨的目标分离，基于L1 正则
+化的最小二乘法模型结果优于基于DFT 插值的超分辨处理方法。
+10
+图3-2
+模型算法迭代收敛过程
+图3-3
+模型与算法对一维仿真天线阵列信号处理结果对比
+11
+图3-4
+模型与算法结果对比
+12
+进一步地，图3-5为对两种提出方法在方位角度剖面的超分辨对比结果。同
+样，基于L1 正则化的最小二乘法模型性能优于基于DFT 插值的超分辨处理方
+法。
+图3-5
+两种提出方法的对比
+超分辨处理后，再运用峰值检测法可最终提取出原重叠在一起的两个目标，
+其位置信息分别为（7 米，0.505°）与（7 米，-0.360°）。根据任务一要求，二维
+极坐标图（横坐标表示距离，纵坐标表示角度）绘制如下图所示。
+图3-6
+目标的二维极坐标图
+13
+3 . 5 任务一结果总结
+根据第一章分析可知，雷达目标检测具有最佳方位角度分辨率为
+2
+Na 弧度，
+本任务的数据对应原角度分辨率为1.33°。通过本节提出的方法及实验结果，特
+别是基于L1 正则化的最小二乘法模型可突破原天线阵列物理极限分辨率，从
+1.33° 提升至0.4°。最后，按要求生成显示了目标的二维极坐标图。另外，该任
+务实验结果可运行附件代码程序Q1_main.m 再现。
+14
+4. 任务二、噪声条件下的目标超分辨定位
+4 . 1 任务二问题分析
+任务二为在噪声条件下，针对提供的高斯噪声仿真数据，利用一个chirp 周
+期内的中频信号，设计超分辨算法精确定位多个物体。
+图4-1
+任务一的无噪数据与任务二提供的受噪声污染数据对比
+图4-2
+噪声条件下的目标超分辨模型算法改进与定位流程图
+由4-1图可知，数据受噪声污染后信噪比下降，需对目标超分辨模型算法进
+15
+行改进。改进的相关步骤如图4-2所示。具体地，为了降低求解运算复杂度，把
+二维数据根据目标的分布分解成距离向和方位向的一维数据处理，这样可以通
+过FMCW 中频信号的“脉冲压缩”增益提高目标的信噪比；接着利用恒虚警率
+(Constant false alarm rate, CFAR) 方法在距离向进行目标检测，得到目标距离向位
+置。依据目标距离向分布的位置，提取相应目标的天线阵元数据。在此基础上，
+最为重要的是对方位向目标超分辨模型算法进行改进，具体如下所述。
+4 . 2 基于恒虚警率CFAR 的距离向目标检测
+由于数据受噪声影响，目标信号的波动起伏。因此本节采用恒虚警率CFAR
+方法[7] 在距离向对目标进行检测。
+某个目标检测的虚警概率可表达为
+PFA = e−T/β2
+(14)
+式中T 为检测阈值，β2 噪声能量。阈值与β2 成正比，具体为
+T = αβ2
+(15)
+上式中α 是一个与虚警概率为变量的函数.
+由于噪声能量β2 会随时间空间变化起伏，CFAR 将自适应噪声变化起伏更
+新检测阈值门限。假设每个采样点为独立同分布，对一个检测单元xi 的概率密
+度函数可写成
+pxi(xi) = 1
+β2e−xi/β2
+(16)
+假设相邻N 单元的样本也为独立同分布，则N 个样本的联合概率密度为
+px(x) =
+1
+β2N e−(∑N
+i=1 xi)/β2
+(17)
+式中x 为N 个样本组成的向量.
+其对数似然函数则为
+ln Λ = −N ln(−β2) −(
+N
+X
+i=1
+xi)/β2
+(18)
+对似然函数以β2 为变量求导，一阶导数为零时可得最大似然概率，
+d(ln Λ)
+d(β2) = −N/β2 −(
+N
+X
+i=1
+xi)/β4 = 0
+(19)
+进一步，可求出最大似然概率对应的噪声能量为
+c
+β2 = (
+N
+X
+i=1
+xi)/N
+(20)
+最终可得到检测阈值为
+bT = αc
+β2
+(21)
+通过CFAR 得到阈值门限后，对信号强度高于阈值的信号则判断为目标检
+测点。
+16
+4 . 3 基于平滑滤波与DFT 方位频谱插值改进方法
+在噪声条件下，基于DFT 方位向插值方法需增加一个平滑滤波步骤，进一
+步消除噪声的影响。为降低运算复杂度，这里设计2 阶系数均为1 的低通滤波，
+具体滤波运算为
+bSi(n) = 1
+3(Si(n −3) + Si(n −2) + Si(n −1))
+(22)
+平滑滤波后，DFT 方位频谱插值方法运算与上一节相同。
+4 . 4 噪声条件下基于L1 正则化的最小二乘法模型改进及求解
+目标方位的超分辨问题可利用L1 范数进行描述为
+arg min
+x
+∥x∥1
+s.t.
+s = Ax + n
+(23)
+上式中n为噪声向量。
+在噪声条件下，目标优化函数模型可改进为
+J(x) = 1
+2∥s −Ax∥2
+2 + η∥x∥1
+(24)
+上式中η 为L1 正则化项的参数.
+引入一个新向量v，上式可表达为
+arg min
+x
+J(x)
+s.t.
+x −v = 0
+(25)
+接下来采用增强的拉格朗日方法，上述问题可表述为
+LA(x, λ, µ) = J(x) + λ∥x −v∥+ µ
+2∥x −v∥2
+2
+(26)
+上式中µ ≥0 is 惩罚因子。交替方向乘子法（Alternating direction method of mul-
+tipliers，ADMM）用于求解上述问题，分别以x 与v 为变量交替求最小值的解,
+具体如下
+xk = arg min
+x
+λ∥x∥1 + µ
+2∥x −vk −dk∥2
+2
+vk = arg min
+v
+1
+2∥s −Axk∥2
+2 + µ
+2∥xk −v −dk∥2
+2
+dk+1 = dk −(xk −vk)
+(27)
+上式求解过程进一步可简化为
+vk+1 = soft(xk + dk, η/µ) −dk
+dk+1 =
+1
+M + µ(AHs −vk)
+dk+1 = dk −(xk −vk)
+(28)
+模型改进后，超分辨增强后的雷达方位角度目标信号为
+bs = Axk
+(29)
+17
+4 . 5 模型结果
+根据公式(11) 与公式(28) 可知，改进后的模型收敛速度与上一节无噪模型
+的收敛速度相同。算法处理过程中DFT 点数设置为512 个。图4-3为改进的模型
+与算法对目标进行超分辨定位的结果对比，左边一列是整体视野范围内雷达数
+据处理后的图，右边一列为左边目标的细节放大。由图可知，改进的两种方法都
+可把原本不容易分辨的目标分离。由对比可知，改进L1 正则化的最小二乘法模
+型结果优于改进DFT 插值的超分辨处理方法的性能。
+图4-3
+改进模型与算法在噪声数据下的结果对比
+进一步地，图4-4为改进的两种方法在方位角度剖面的超分辨对比结果。由
+图可见，改进的L1 正则化最小二乘法模型性能优于基于DFT 插值的超分辨处
+18
+理方法。
+图4-4
+两种改进方法的对比
+超分辨处理后，再运用峰值检测法可最终提取出原重叠在一起的两个目标
+的位置信息分别为（8.19 米，0.5045°）与（8.19 米，-0.3604°）。按照题目要求，
+二维极坐标图（横坐标表示距离，纵坐标表示角度）绘制如下图所示。
+图4-5
+目标的二维极坐标图
+4 . 6 任务二模型总结与评价
+为克服噪声对算法超分辨定位的影响，本节对提出的模型及算法进行了改
+进，采用了CFAR 消除了噪声起伏，利用2 阶简单的低通滤波改进了DFT 方位
+19
+频谱插值方法。另外，重新对信号模型加入噪声进行推导，改进了L1 正则化最
+小二乘法模型。由实验结果可知，改进的两种方法具有抗噪声的鲁棒性能，并具
+有良好的超分辨定位性能，可突破原天线阵列物理极限分辨率，与无噪条件性能
+相同，可把分辨率从1.33° 提升至0.4°。最后按要求生成目标的二维极坐标显示
+图。该任务实验结果可运行附件代码程序Q2_main.m 再现。
+20
+5. 任务三、移动场景中在线低复杂度算法目标定位与轨迹估计
+5 . 1 任务三问题分析
+任务三要求设计在线低复杂度算法，利用一帧中频信号来超分辨定位，并且
+通过数值实验验证算法性能。针对提供的一帧数据，计算出物体相对运动轨迹，
+并以二维图（横坐标表示距离，纵坐标表示角度）展示。
+5 . 2 在线低复杂度算法
+图5-1给出了移动场景中的目标超分辨定位与轨迹估计算法流程。该算法流
+程是在前面两个任务的基础上设计的，主要核心步骤为距离向DFT、利用恒虚
+警率CFAR 方法检测距离向目标、依据距离向位置提取相应目标的天线阵元数
+据、目标方位超分辨增强处理、利用恒虚警率CFAR 方法检测方位向目标、提取
+当前帧目标位置信息、当前帧目标与前一帧目标匹配处理等。
+由前面的任务模型分析，提出的两种目标方位超分辨增强处理算法均具有
+低复杂度，具体如下：
+首先，提出的方法只需取其中一个距离向的数据进行距离向目标检测，再根
+据目标的距离向位置提取方位向信号。这种操作把两维信号的运算量降低至仅
+为一个距离向的一维信号目标峰值检测，以及目标个数成正比的方位向一维信
+号超分辨算法处理。
+其次，基于DFT 频谱插值的法是基于FFT 实现，运算量小。
+最后，L1 正则化最小二乘法模型算法只有一步操作涉及DFT 变换，由图3-2
+可见算法具有快速收敛的特点，迭代次数最多为20 次，因此总体运算量20 次
+FFT 运算。
+结合以上分析，本任务的在线低复杂度算法中的目标方位超分辨增强处理
+采用任务一和任务二提出的两种方法。
+对于多帧在线目标超分辨定位，考虑到多个目标运动过程中可能存在相向
+运动过程，目标在交汇时方位角度重叠，因此需要对任务二的算法流程进行改
+进。具体地，在距离向和方位向的目标峰值检测方面均采用CFAR 方法，并把
+CAFR 的中间保护单元设置为0 个单元。
+另外，相邻帧的目标需要进行目标匹配，使得检测目标为同一目标。这个匹
+配方法采用相邻两帧检测点的最近距离进行计算判断。因操作简单，不进行相关
+的数学公式描述。
+21
+图5-1
+在线低复杂度算法目标超分辨定位与轨迹估计流程图
+22
+5 . 3 目标运动轨迹计算结果
+首先，图5-2给出了一个采用恒虚警率CFAR 方法对方位向目标检测的结果。
+由图可知，通过CFAR 方法可有效检测方位向的多个目标，降低了规避多目标旁
+瓣对真实目标的干扰影响。这为后续相邻帧的目标匹配提供了良好的角度信息。
+图5-2
+一个采用恒虚警率CFAR 方法对方位向目标检测的结果
+图5-3
+其中一帧数据的目标超分辨定位结果
+图5-3给出了其中一帧数据的两种方法目标超分辨定位结果。
+23
+表2
+基于DFT 插值的在线低复杂度算法目标轨迹计算结果
+帧号
+目标1
+目标2
+R1 (米)
+θ1(°)
+R2 (米)
+θ2(°)
+1
+5.994
+0.612
+5.994
+-0.540
+2
+5.994
+0.324
+6.053
+-0.396
+3
+5.935
+0.612
+6.053
+-0.540
+4
+5.935
+0.756
+6.053
+-0.756
+5
+5.935
+0.900
+6.053
+-0.828
+6
+5.935
+1.044
+6.053
+-0.972
+7
+5.935
+1.260
+6.113
+-1.116
+8
+5.875
+1.404
+6.113
+-1.332
+9
+5.875
+1.548
+6.113
+-1.476
+10
+5.875
+1.692
+6.172
+-1.620
+11
+5.816
+1.836
+6.172
+-1.764
+12
+5.816
+1.980
+6.172
+-1.908
+13
+5.816
+2.125
+6.172
+-2.053
+14
+5.816
+2.269
+6.231
+-2.197
+15
+5.757
+2.413
+6.231
+-2.341
+16
+5.757
+2.557
+6.231
+-2.485
+17
+5.757
+2.701
+6.231
+-2.629
+18
+5.757
+2.845
+6.291
+-2.773
+19
+5.697
+2.989
+6.291
+-2.917
+20
+5.697
+3.134
+6.291
+-3.062
+21
+5.697
+3.278
+6.291
+-3.206
+22
+5.697
+3.422
+6.350
+-3.350
+23
+5.638
+3.566
+6.350
+-3.494
+24
+5.638
+3.711
+6.350
+-3.639
+25
+5.638
+3.855
+6.409
+-3.855
+26
+5.638
+4.072
+6.409
+-3.999
+27
+5.579
+4.144
+6.409
+-4.144
+28
+5.579
+4.360
+6.409
+-4.288
+29
+5.579
+4.505
+6.469
+-4.433
+30
+5.519
+4.649
+6.469
+-4.577
+31
+5.519
+4.794
+6.469
+-4.722
+32
+5.519
+4.938
+6.469
+-4.866
+24
+表3
+基于L1 正则化最小二乘法的在线低复杂度算法目标轨迹计算结果
+帧号
+目标1
+目标2
+R1 (米)
+θ1(°)
+R2 (米)
+θ2(°)
+1
+5.994
+0.540
+5.994
+-0.468
+2
+5.994
+0.540
+6.053
+-0.396
+3
+5.935
+0.612
+6.053
+-0.540
+4
+5.935
+0.756
+6.053
+-0.756
+5
+5.935
+0.900
+6.053
+-0.828
+6
+5.935
+1.044
+6.053
+-1.044
+7
+5.935
+1.260
+6.113
+-1.116
+8
+5.875
+1.404
+6.113
+-1.332
+9
+5.875
+1.548
+6.113
+-1.476
+10
+5.875
+1.692
+6.172
+-1.620
+11
+5.816
+1.836
+6.172
+-1.764
+12
+5.816
+1.980
+6.172
+-1.908
+13
+5.816
+2.125
+6.172
+-2.053
+14
+5.816
+2.269
+6.231
+-2.197
+15
+5.757
+2.413
+6.231
+-2.341
+16
+5.757
+2.557
+6.231
+-2.485
+17
+5.757
+2.701
+6.231
+-2.629
+18
+5.757
+2.845
+6.291
+-2.773
+19
+5.697
+2.989
+6.291
+-2.917
+20
+5.697
+3.134
+6.291
+-3.062
+21
+5.697
+3.278
+6.291
+-3.206
+22
+5.697
+3.422
+6.350
+-3.350
+23
+5.638
+3.566
+6.350
+-3.494
+24
+5.638
+3.711
+6.350
+-3.639
+25
+5.638
+3.855
+6.409
+-3.783
+26
+5.638
+3.999
+6.409
+-3.927
+27
+5.579
+4.216
+6.409
+-4.144
+28
+5.579
+4.360
+6.409
+-4.288
+29
+5.579
+4.505
+6.469
+-4.360
+30
+5.519
+4.649
+6.469
+-4.577
+31
+5.519
+4.794
+6.469
+-4.722
+32
+5.519
+4.938
+6.469
+-4.866
+25
+表2 与表3 分别给出了基于DFT 插值以及基于L1 正则化最小二乘法的在
+线低复杂度算法目标轨迹计算结果。按照任务要求，图5-4与图5-5分别给出了基
+于DFT 插值以及基于L1 正则化最小二乘法的目标轨迹二维极坐标图。
+图5-4
+基于DFT 插值的目标轨迹二维极坐标图
+26
+图5-5
+基于L1 正则化最小二乘法的目标轨迹二维极坐标图
+图5-6
+两种方法轨迹计算中的方位角度估计对比
+27
+由以上结果可知，两种方法对同一目标计算得到径向距离是相同的，主要的
+差别在于方位角度估计值有所不同。图5-6给出了基于DFT 插值以及基于L1 正
+则化最小二乘法的目标方位角度估计对比。由图可知，角度在前3 帧时，由于两
+个目标有所重叠，因此基于DFT 插值的角度估计误差稍微大一些。随着两个目
+标运动，相对距离变大，两种方法方位角度估计值相近。
+5 . 4 任务三算法结果总结
+基于前面两个任务，本任务设计完成了在线低复杂度算法，实现了移动场景
+中在线低复杂度算法目标定位，并绘制了运动目标的轨迹。实验结果表明，在不
+同目标相邻较近时，基于L1 正则化最小二乘法的在线算法具有较好的性能。当
+多个目标具有较大距离时，基于DFT 插值与基于L1 正则化最小二乘法的在线
+算法性能相近。在运算量方面，基于L1 正则化最小二乘法的运算量是基于基于
+DFT 插值方法的约20 倍左右。该任务实验结果可运行附件代码程序Q3_main.m
+再现。
+28
+6. 任务四、天线阵元存在误差下的目标超分辨定位
+6 . 1 任务四问题分析
+不同于任务二的噪声条件，任务四考虑实际场景中由于老化等原因，天线阵
+列对于自身的定位也会有误差。针对提供的仿真数据，设计提升定位算法的鲁棒
+性的改进算法。
+图6-1
+不同任务数据对比
+由图6-1可知，该任务数据噪声与任务二的数据噪声有所不同。首先，对该
+任务的数据进行距离向DFT，再提取一个阵元天线通道的距离向波形，绘制如
+下所示。
+图6-2
+本任务数据距离向DFT 后的某一阵元天线通道距离向波形
+由上图分析可知，通过距离DFT 后，信号目标强度比噪声基底高出30dB。
+这表明在方位-距离向上目标的信噪比为30dB。根据雷达接收机检测概率，信噪
+比为30dB 的目标检测概率为1。因此本任务同样可以采用与任务一和任务二相
+同的处理流程。首先对信号在快时间域上进行距离向DFT；然后针对目标所在
+的距离位置，提取对应的阵列通道信号波形。图6-3为距离向DFT 后，目标的天
+29
+线阵元采样点的虚部波形对比。由图可知，距离向DFT 后，目标信噪比提升，在
+方位向上残留了一些噪声。
+图6-3
+不同信噪比的天线阵元采样点虚部波形对比
+30
+6 . 2 模型与算法
+由上分析可知，在方位向滤波可消除残留噪声影响。如图6-4所示为运用简
+单的低通滤波[0.5 0.5] 滤波平滑结果，因此DFT 频谱插值方法仍适用于本任务。
+图6-4
+滤波前后天线阵元波形对比
+图6-5
+天线阵元存在误差下的目标超分辨定位算法流程
+31
+另外，改进的L1 正则最小二乘模型算法本身具有良好的噪声抑制性能，也
+仍适用于本任务。因此，本任务求解的具体流程如图6-5所示。
+6 . 3 模型结果
+模型算法处理过程中DFT 运算点数设置为512。图6-6左边一列是整体视野
+范围内雷达数据处理后的图，右边一列为左边目标的细节放大。由图可知，基于
+L1 正则化的最小二乘法模型结果优于基于DFT 插值的超分辨处理方法，估计得
+到两个目标的位置为（6 米，0.02°）与（6.1 米，-0.01°）。
+图6-6
+两种提出方法对本任务数据超分辨增强对比
+6 . 4 模型在天线阵元缺失数据的目标定位超分辨扩展实验
+为了进一步展示提出方法的性能，对提供的数据随机丢失36 个阵元的数据，
+模拟天线阵列接收异常的情况下，再进行目标定位超分辨实验。
+图6-7为每个接收采样时有36 个天线阵元不能正常采样以及产生噪声后的
+数据图。图6-8和图6-9为通过提出两种方法恢复的结果。由实验结果可知，提出
+的两种方法均能得到准确的超分辨定位结果。该实验结果可运行附件代码程序
+Q4_Extend_main.m 再现。
+32
+图6-7
+丢失36 个天线阵元并加噪产生的数据（黑色代表数据为零）
+33
+图6-8
+对任务四数据丢失36 阵元后的目标超分辨定位结果
+34
+图6-9
+对任务三数据丢失36 阵元后的目标超分辨定位结果
+6 . 5 任务四模型结果总结与评价
+由模型算法的实验结果可知，提出的两种方法均能有效地克服天线噪声的影
+响，具有较好的抗噪声干扰的鲁棒性能。另外，还对本任务的问题进行了天线阵
+元丢失数据的目标超分辨定位扩展实验。提出的两种方法之所以能在丢失阵元
+数据的情况下，准确定位目标，其理论在于两种方法都对目标信号进行相参插值，
+进而保持目标信号的相位和能量。另外，两种算法主要运算为FFT，结合当前毫
+米波雷达芯片硬件资源，都可编写成芯片可运行的代码，具有一定的市场应用推
+广价值。该任务实验结果可运行附件代码程序Q4_main.m 与Q4_Extend_main.m
+再现。
+35
+7. 参考文献
+[1] Patole S M, Torlak M, Wang D, et al. Automotive Radars: A review of signal
+processing techniques[J]. IEEE Signal Processing Magazine, 34(2):22-35, 2017.
+[2] Tsang S H, Hall P S, Hoare E D, et al. Advanced path measurement for automotive
+radar applications [J]. IEEE Transactions on Intelligent Transportation Systems,
+7(3):273-281, 2006.
+[3] 德州仪器. 毫米波雷达传感器基础知识[EB/OL]. (2017-05-06)[2022-10-09].
+https://www.ti.com/cn/lit/wp/zhcy075/zhcy075.pdf
+[4] Texas
+Instrument.
+Introduction
+to
+mmWave
+radar
+sensing:
+FMCW
+radars[EB/OL].
+(2020-07-10)[2022-10-09].
+https://training.ti.com/zh-
+tw/node/1139153
+[5] Gamba J. Radar signal processing for autonomous driving[M]. Singapore::
+Springer, 29-33,65-86, 2020.
+[6] Herman M A, Strohmer T. High-resolution radar via compressed sensing[J]. IEEE
+Transactions on Signal Processing, 57(6):2275-2284,2009.
+[7] Richards, Mark A. Fundamentals of radar signal processing,McGraw-Hill Edu-
+cation,347-352,2014.
+36
+附录A 程序代码
+%程序名称：Q1_main.m
+%任务一：无噪雷达数据MIMO定位模型
+%该程序根据无噪雷达数据MIMO定位模型，计算出物体相对位置，结果以二维极坐标显示
+clc;clear; close all;
+%MIMO 雷达系统参数
+Ts=1.25e-7;
+T=3.2e-5;
+Nf=32;
+Na=86;
+L=0.0815;
+d=L/(Na-1);
+Light_speed=3e8;
+Kr=7.8986e13;
+f0=78.8e9;
+wavelenth=Light_speed/f0;
+fs=1/Ts;
+Ridx=(0:255)/256*fs*Light_speed/2/Kr;
+load('data_q1.mat');
+rafData=(fft(Z,[],2));
+AzNfft=Na;
+az0=linspace( 0.6428,-0.6428,Na);
+azz0=acosd(az0)-90;
+data=fftshift(fft(rafData,AzNfft,1),1);
+figure;
+PloarPlot(Ridx,azz0,data);
+ImageFormat(16);
+%方法一：对方位向进行频谱插值精细化的超分辨方法
+fac=2;
+AzNfft=256*fac;
+data=fftshift(fft(rafData,AzNfft,1),1);
+az=linspace( 0.6428,-0.6428,AzNfft);
+%az= wavelenth/2/pi/d*az;
+azz=acosd(az)-90;
+figure;
+PloarPlot(Ridx,azz,data);
+ImageFormat(16);
+% 距离向目标检测
+td=abs(rafData(1,:));
+figure;plot(abs(td));
+idx=find(td==max(td));
+37
+%方位向插值频谱精细化超分辨
+az_sig_dft=rafData(:,idx);
+figure;plot(imag(az_sig_dft));xlim([0 86]);
+xlabel('方位阵元采样点');ylabel('信号强度');
+az_sig_dft=fftshift(fft(az_sig_dft,AzNfft));
+az_sig_dft=az_sig_dft/max(abs(az_sig_dft));
+% Define functions (Matlab function handles)
+Trans_num=AzNfft;
+H = @(x) InvTransformation(x,Na,Trans_num);
+HT = @(x) Transformation(x,Na,Trans_num);
+p = Trans_num; % 变换点数
+Nit = 20;
+% 迭代次数
+mu =1e-1;
+% 模型参数
+%方法2：基于L1正则最小二乘法的方位向超分辨算法处理
+y=rafData(:,idx);
+% [coef, cost] = mimo_anttena_salsa(y, H, HT, p, mu, Nit);
+lambda = 7;
+[coef, cost] = mimo_anttena_denoising_salsa(y, H, HT, p, lambda,
+mu, Nit);
+err = y - InvTransformation(coef,Na,Trans_num);
+err_max = max(abs(err));
+lsz=2;
+figure;plot(cost,'linewidth',lsz);
+xlabel('迭代次数');ylabel('目标函数值');
+ImageFormat(16);
+az_sig_ls=fftshift(abs(coef));
+az_sig_ls=az_sig_ls/max(abs(az_sig_ls));
+figure; plot(azz,20*log10(abs(az_sig_dft)),'linewidth',lsz);
+hold on;plot(azz,20*log10(abs(az_sig_ls)),':','linewidth',lsz);
+xlabel('方位角度(°)');ylabel('相对强度(dB)');
+legend('DFT 插值', '基于L1正则化的最小二乘法');
+xlim([-20 20]);ylim([-40 1]);
+ImageFormat(16);
+data2=data*0+eps;
+data2(:,119)=fftshift(coef);
+38
+a_data=(abs(fftshift(coef)));
+figure;plot(a_data);
+% 方位目标峰值检测
+num_train=27.4;
+num_guard=0;
+rate_fa=1e-1;
+num_train_half = round(num_train / 2);
+num_guard_half = round(num_guard / 2);
+num_side = num_train_half + num_guard_half;
+alpha = num_train*(rate_fa.^(-1/num_train) - 1);
+peak_idx = 0;
+pk=0;
+for k=num_side : AzNfft - num_side
+tem=a_data(k-num_side+1:k+num_side);
+[M,Ix] = max(tem,[],1);
+if (k ~= k-num_side+Ix)
+sum1 = sum(a_data);
+sum2 =sum(a_data(k-num_guard_half+1:k+num_guard_half));
+p_noise = (sum1 - sum2) / num_train ;
+threshold = alpha * p_noise;
+if a_data(k)> threshold
+pk=pk+1;
+peak_idx(pk)=k;
+end
+end
+end
+for k=1:pk
+theta(k)=azz(peak_idx(k))/180*pi;
+rho(k)=Ridx(idx);
+end
+figure;%雷达目标信息极坐标显示
+apo = polaraxes;
+polarplot(theta,rho,'o','MarkerSize',3,'MarkerFaceColor','b');
+thetalim([-20 20]);ImageFormat(16);
+figure;%雷达超分辨处理后数据极坐标显示
+PloarPlot(Ridx,azz,data2);ImageFormat(16);
+%程序名称：Q2_main.m
+%任务二：含噪雷达数据MIMO定位模型
+%该程序根据含噪雷达数据MIMO定位模型，计算出物体相对位置，结果以二维极坐标显示
+39
+clc;clear; close all;
+Ts=1.25e-7;
+T=3.2e-5;
+Nf=32;
+Na=86;
+L=0.0815;
+Light_speed=3e8;
+Kr=7.8986e13;
+f0=78.8e9;
+wavelength=Light_speed/f0;
+fs=1/Ts;
+Ridx=(0:255)/256*fs*Light_speed/2/Kr;
+load('data_q2.mat');
+figure;
+imagesc(abs(Z_noisy));
+ylabel('方位向阵元采样点');
+xlabel('快时间域（距离向）采样点');
+rafData=(fft(Z_noisy,[],2));
+AzNfft=Na;
+az0=linspace( 0.6428,-0.6428,Na);
+azz0=acosd(az0)-90;
+data=fftshift(fft(rafData,AzNfft,1),1);
+figure;
+PloarPlot(Ridx,azz0,data);
+fac=2;
+AzNfft=256*fac;
+data=fftshift(fft(rafData,AzNfft,1),1);
+az=linspace( 0.6428,-0.6428,AzNfft);
+azz=acosd(az)-90;
+figure;
+PloarPlot(Ridx,azz,data);
+td=abs(rafData(1,:));
+figure;plot(abs(td));
+idx=find(td==max(td));
+figure; plot(abs(rafData(:,idx)));
+%figure; plot(azz,20*log10(abs(data(:,idx))));
+% CFAR 处理
+RefLength=15;
+GuardLength=3;
+offset=2e3;
+Cfar_win=ones((RefLength+GuardLength)*2+1,1);
+Cfar_win(RefLength+1:RefLength+1+2*GuardLength)=0;
+40
+Cfar_win=Cfar_win/sum(Cfar_win);
+noiseLevel=conv(abs(data(:,idx)),Cfar_win,'same');
+cfarThreshold=noiseLevel+offset;
+Cfar_sig=data(:,idx).*(abs(data(:,idx))>cfarThreshold);
+figure;plot(abs(data(:,idx)));
+hold on;
+plot(cfarThreshold);
+hold on;
+plot(abs(Cfar_sig));
+xlabel('采样点');
+ylabel('信号强度');
+xlim([0 AzNfft]);
+legend('原信号','CFAR阈值','CFAR输出');
+data=data*0+eps;
+data(:,idx)=Cfar_sig;
+figure;
+PloarPlot(Ridx,azz,data);
+Trans_num=AzNfft;
+H = @(x) InvTransformation(x,Na,Trans_num);
+HT = @(x) Transformation(x,Na,Trans_num);
+p = Trans_num; % 变换点数
+Nit = 20;
+% 迭代次数
+mu =1e-1;
+% 模型参数
+% 同时去噪与超分辨处理
+y=rafData(:,idx);
+lambda = 7;
+[coef, cost] = mimo_anttena_denoising_salsa(y, H, HT, p, lambda,
+mu, Nit);
+err = y - InvTransformation(coef,Na,Trans_num);
+err_max = max(abs(err));
+figure;plot(cost)
+c0 = HT(y);
+figure;
+subplot(121)
+plot(fftshift(abs(c0)));
+subplot(122)
+plot((fftshift(abs(coef))));
+% plot(20*log10(fftshift(abs(coef))));
+az_sig_dft=rafData(:,idx);
+% figure;plot(imag(az_sig_dft));xlim([0 86]);
+% xlabel('方位阵元采样点');ylabel('信号强度');
+41
+az_sig_dft=fftshift(fft(az_sig_dft,AzNfft));
+az_sig_dft=az_sig_dft/max(abs(az_sig_dft));
+az_sig_ls=fftshift(abs(coef));
+az_sig_ls=az_sig_ls/max(abs(az_sig_ls));
+lsz=2;
+figure; plot(azz,20*log10(abs(az_sig_dft)),'linewidth',lsz);
+hold on;plot(azz,20*log10(abs(az_sig_ls)),':','linewidth',lsz);
+xlabel('方位角度(°)');ylabel('相对强度(dB)');
+legend('改进的DFT 插值', '改进的L1正则化最小二乘法');
+xlim([-20 20]);ylim([-40 1]);
+ImageFormat(16);
+data2=data*0+eps;
+data2(:,idx)=fftshift(coef);
+a_data=(abs(fftshift(coef)));
+figure;plot(a_data);
+% 目标峰值检测
+num_train=26;
+num_guard=0;
+rate_fa=1e-1;
+num_train_half = round(num_train / 2);
+num_guard_half = round(num_guard / 2);
+num_side = num_train_half + num_guard_half;
+alpha = num_train*(rate_fa.^(-1/num_train) - 1);
+peak_idx = 0;
+pk=0;
+for k=num_side : AzNfft - num_side
+tem=a_data(k-num_side+1:k+num_side);
+[M,Ix] = max(tem,[],1);
+if (k ~= k-num_side+Ix)
+sum1 = sum(a_data);
+sum2 =sum(a_data(k-num_guard_half+1:k+num_guard_half));
+p_noise = (sum1 - sum2) / num_train ;
+threshold = alpha * p_noise;
+if a_data(k)> threshold
+pk=pk+1;
+peak_idx(pk)=k;
+end
+end
+42
+end
+for k=1:pk
+theta(k)=azz(peak_idx(k))/180*pi;
+rho(k)=Ridx(idx);
+end
+figure; %雷达目标信息极坐标显示
+apo = polaraxes;
+polarplot(theta,rho,'o','MarkerSize',5,'MarkerFaceColor','b');
+thetalim([-20 20]);
+figure;%雷达超分辨处理后数据极坐标显示
+PloarPlot(Ridx,azz,data2);
+%程序名称：Q3_main.m
+%任务三：在线低复杂度算法
+%该程序用于计算物体相对运动轨迹，并以二维图展示
+clc;clear; close all;
+load('data_q3.mat');
+%MIMO 雷达系统参数
+Ts=1.25e-7;
+T=3.2e-5;
+Nf=32;
+Na=86;
+L=0.0815;
+C0=3e8;
+Kr=7.8986e13;
+f0=78.8e9;
+lambda=C0/f0;
+fs=1/Ts;
+Range_num=256;
+Ridx=(0:Range_num-1)/Range_num*fs*C0/2/Kr;
+fac=4;
+AzNfft=256*fac;
+az=linspace( 0.6428,-0.6428,AzNfft);
+azz=acosd(az)-90;
+Xr=Ridx'*cosd(azz);
+Yr=Ridx'*sind(azz);
+Trans_num=AzNfft;
+H = @(x) InvTransformation(x,Na,Trans_num);
+HT = @(x) Transformation(x,Na,Trans_num);
+lambda = 7;
+p = Trans_num;
+43
+Nit = 20;
+mu =1e-1;
+for t=1:Nf
+Z=reshape(Z_time(t,:,:),Na,Range_num);
+rafData=fft(Z,[ ],2);
+data=fftshift(fft(rafData,AzNfft,1),1);
+% figure;PloarPlot(Ridx,azz,data);
+range_sig=abs(rafData(1,:));
+%
+figure;plot(range_sig);
+% 距离向目标检测
+RefLength=1;
+GuardLength=0;
+offset=40;
+Cfar_win=ones((RefLength+GuardLength)*2+1,1);
+Cfar_win(RefLength+1:RefLength+1+2*GuardLength)=0;
+Cfar_win=Cfar_win/sum(Cfar_win);
+noiseLevel=conv(range_sig,Cfar_win,'same');
+cfarThreshold=noiseLevel+offset;
+%
+hold on;plot(cfarThreshold);
+range_sig_new=range_sig.*(range_sig>cfarThreshold);
+%
+hold on;stem(range_sig_new);
+idx=find(range_sig_new>0);
+len=length(idx);
+if(len>2)
+[M0,rdi0] = max(range_sig_new,[],2);
+range_sig_new(rdi0)=-1;
+for lp=2:length(idx)
+[M1,rdi1] = max(range_sig_new,[],2);
+if(M0-M1<M0*0.2 && abs(rdi1-rdi0)==1)
+range_sig_new(rdi1)=0;
+else
+if(lp>2)
+range_sig_new(rdi1)=0;
+else
+range_sig_new(rdi1)=-1;
+end
+end
+rdi0=rdi1;
+44
+M0=M1;
+end
+idx=find(-1==range_sig_new);
+len=length(idx);
+end
+data2=data*0+eps;
+%方位角度超分辨处理
+for k=1:len
+y=rafData(:,idx(k));
+[coef, cost] = mimo_anttena_denoising_salsa(y, H, HT, p,
+lambda, mu, Nit);
+data2(:,idx(k))=fftshift(coef);
+PeakDetection;% L1方位目标峰值检测
+az_sig_dft=fftshift(fft(y,AzNfft));
+PeakDetection_dft;% DFT 方位目标峰值检测
+end
+%
+figure; PloarPlot(Ridx,azz,data2);
+end
+figure; %基于DFT 最小二乘雷达目标运动轨迹极坐标显示
+apo = polaraxes;
+polarplot(theta_dft(:,1),rho_dft(:,1),'linewidth',1.5);%目标1
+hold on;
+polarplot(theta_dft(:,2),rho_dft(:,2),'linewidth',1.5);%目标2
+thetalim([-30 30]);rlim([3.5 7]);
+legend('目标1轨迹','目标2轨迹');
+figure; %L1 最小二乘雷达目标运动轨迹极坐标显示
+apo = polaraxes;
+polarplot(theta(:,1),rho(:,1),'linewidth',1.5);%目标1
+hold on;
+polarplot(theta(:,2),rho(:,2),'linewidth',1.5);%目标2
+thetalim([-30 30]);rlim([3.5 7]);
+legend('目标1轨迹','目标2轨迹');
+lsz=2;
+figure; plot(theta_dft(:,2)*180/pi,'linewidth',lsz);
+hold on;plot(theta(:,2)*180/pi,':','linewidth',lsz);
+ylabel('方位角度(°)');xlabel('帧号');
+legend('基于DFT 插值的算法', '基于L1正则化最小二乘法的算法');
+xlim([0 32]);ylim([-6 0]);
+ImageFormat(16);
+45
+%程序名称：Q4_main.m
+%任务四：天线阵元存在误差下的角度超分辨算法
+%该程序用于消除天线阵元误差，目标角度超分辨
+clc;clear; close all;
+%MIMO 雷达系统参数
+Ts=1.25e-7;
+T=3.2e-5;
+Nf=32;
+Na=86;
+L=0.0815;
+C0=3e8;
+Kr=7.8986e13;
+f0=78.8e9;
+lambda=C0/f0;
+fs=1/Ts;
+Ridx=(0:255)/256*fs*C0/2/Kr;
+load('data_q4.mat');
+figure;
+imagesc(abs(Z_antnoisy));
+ylabel('方位向阵元采样点');
+xlabel('快时间域（距离向）采样点');
+colormap(jet);
+fac=16;
+AzNfft=256*fac;
+rafData=(fft(Z_antnoisy,[],2));
+data=fftshift(fft(rafData,AzNfft,1),1);
+Trans_num=AzNfft;
+H = @(x) InvTransformation(x,Na,Trans_num);
+HT = @(x) Transformation(x,Na,Trans_num);
+lambda = 7;
+p = Trans_num;
+Nit = 20;
+mu =1e-1;
+for k=1:Na
+figure(1); plot(abs(rafData(k,:)));
+end
+xlim([0 256]);xlabel('距离向采样点');ylabel('信号强度');
+figure; plot(20*log10(abs(rafData(k,:))));
+xlim([0 256]);ylim([10 60]);xlabel('距离向采样点');ylabel('信号强度
+(dB)');
+46
+az=linspace( 0.6428,-0.6428,AzNfft);
+azz=acosd(az)-90;
+lpfcoef=0.5*[1 1];
+rafData1=rafData;
+data=fftshift(fft(rafData,AzNfft,1),1);
+figure;PloarPlot(Ridx,azz,data);
+range_sig=abs(rafData(1,:));
+%%距离向目标检测
+RefLength=2;
+GuardLength=0;
+offset=50;
+Cfar_win=ones((RefLength+GuardLength)*2+1,1);
+Cfar_win(RefLength+1:RefLength+1+2*GuardLength)=0;
+Cfar_win=Cfar_win/sum(Cfar_win);
+noiseLevel=conv(range_sig,Cfar_win,'same');
+cfarThreshold=noiseLevel+offset;
+figure;plot(cfarThreshold);
+range_sig_new=range_sig.*(range_sig>cfarThreshold);
+hold on;stem(range_sig_new);
+idx=find(range_sig_new>0);
+len=length(idx);
+data2=data*0+eps;
+%方位向天线去噪声及超分辨率处理
+for k=1:len
+rafData1(:,idx(k))=conv(rafData(:,idx(k)),lpfcoef,'same');
+y=rafData(:,idx(k));
+[coef, cost] = mimo_anttena_denoising_salsa(y, H, HT, p,
+lambda, mu, Nit);
+data2(:,idx(k))=fftshift(coef);
+end
+figure; plot(imag(rafData(:,idx(1))));xlim([0 86]);
+xlabel('方位阵元采样点');ylabel('信号强度');
+figure; plot(imag(rafData(:,idx(2))));
+hold on; plot(imag(rafData1(:,idx(2))));
+xlim([0 85]);
+xlabel('方位阵元采样点');ylabel('信号强度');
+legend('滤波前','滤波后');
+data1=fftshift(fft(rafData1,AzNfft,1),1);
+figure;
+PloarPlot(Ridx,azz,data1);
+47
+figure;
+PloarPlot(Ridx,azz,data2);
+%程序名称：Q4_Extend_main.m
+%任务四问题扩展：天线阵元数据部分丢失下的角度超分辨算法
+%该程序用于补偿天线阵元丢失的数据，实现目标角度超分辨
+clc;clear; close all;
+%MIMO 雷达系统参数
+Ts=1.25e-7;
+T=3.2e-5;
+Nf=32;
+Na=86;
+L=0.0815;
+C0=3e8;
+Kr=7.8986e13;
+f0=78.8e9;
+lambda=C0/f0;
+fs=1/Ts;
+Ridx=(0:255)/256*fs*C0/2/Kr;
+load('data_q4.mat');Z=Z_antnoisy;clear Z_antnoisy;
+%load('Q4.mat');
+Z_new=Z;
+fac=1;
+AzNfft=256*fac;
+az=linspace( 0.6428,-0.6428,AzNfft);
+azz=acosd(az)-90;
+%产生缺失36个通道数据。
+for rd=1:256
+%方位向某些天线阵元因老化无法接收信号
+%缺失数据
+K = 50;
+k = randperm(Na);
+k = k(1:K);
+s = false(1,Na)';
+s(k) = true;
+ids=find(s==0);
+y=Z(:,rd);
+y(ids) =0;
+Z_new(:,rd)=y+rand(Na,1)+1i*rand(Na,1);
+end
+48
+figure;
+imagesc(abs(Z_new));
+ylabel('方位向阵元采样点');
+xlabel('快时间域（距离向）采样点');
+colormap(hot)
+h=colorbar;
+a = h.Position;
+set(h,'Position',[a(1)+0.1 a(2)+0.1 0.01 0.6]);
+figure;
+imagesc(abs(Z));
+ylabel('方位向阵元采样点');
+xlabel('快时间域（距离向）采样点');
+colormap(hot)
+h=colorbar;
+a = h.Position;
+set(h,'Position',[a(1)+0.1 a(2)+0.1 0.01 0.6]);
+clear Z;
+fac=16;
+AzNfft=256*fac;
+rafData=(fft(Z_new,[],2));
+data=fftshift(fft(rafData,AzNfft,1),1);
+Trans_num=AzNfft;
+H = @(x) InvTransformation(x,Na,Trans_num);
+HT = @(x) Transformation(x,Na,Trans_num);
+lambda = 7;
+p = Trans_num;
+Nit = 20;
+mu =1e-1;
+for k=1:Na
+figure(10); plot(abs(rafData(k,:)));
+end
+xlim([0 256]);xlabel('距离向采样点');ylabel('信号强度');
+figure; plot(20*log10(abs(rafData(k,:))));
+xlim([0 256]);ylim([10 60]);xlabel('距离向采样点');ylabel('信号强度
+(dB)');
+az=linspace( 0.6428,-0.6428,AzNfft);
+azz=acosd(az)-90;
+lpfcoef=0.5*[1 1];
+rafData1=rafData;
+data=fftshift(fft(rafData,AzNfft,1),1);
+figure;PloarPlot(Ridx,azz,data);
+49
+range_sig=abs(rafData(1,:));
+%%距离向目标检测
+RefLength=2;
+GuardLength=0;
+offset=50;
+Cfar_win=ones((RefLength+GuardLength)*2+1,1);
+Cfar_win(RefLength+1:RefLength+1+2*GuardLength)=0;
+Cfar_win=Cfar_win/sum(Cfar_win);
+noiseLevel=conv(range_sig,Cfar_win,'same');
+cfarThreshold=noiseLevel+offset;
+figure;plot(cfarThreshold);
+range_sig_new=range_sig.*(range_sig>cfarThreshold);
+hold on;stem(range_sig_new);
+idx=find(range_sig_new>0);
+len=length(idx);
+data2=data*0+eps;
+%方位向天线去噪声及超分辨率处理
+for k=1:len
+rafData1(:,idx(k))=conv(rafData(:,idx(k)),lpfcoef,'same');
+y=rafData(:,idx(k));
+[coef, cost] = mimo_anttena_denoising_salsa(y, H, HT, p,
+lambda, mu, Nit);
+data2(:,idx(k))=fftshift(coef);
+end
+figure; plot(imag(rafData(:,idx(1))));xlim([0 86]);
+xlabel('方位阵元采样点');ylabel('信号强度');
+figure; plot(imag(rafData(:,idx(2))));
+hold on; plot(imag(rafData1(:,idx(2))));
+xlim([0 85]);
+xlabel('方位阵元采样点');ylabel('信号强度');
+legend('滤波前','滤波后');
+data1=fftshift(fft(rafData1,AzNfft,1),1);
+figure;
+PloarPlot(Ridx,azz,data1);
+figure;
+PloarPlot(Ridx,azz,data2);
+function [x, cost] = mimo_anttena_denoising_salsa(y, A, At, p,
+50
+lambda, mu, Nit)
+% 噪声条件下L1正则化最小二乘法
+if nargout > 1
+ComputeCost = true;
+cost = zeros(1,Nit);
+else
+ComputeCost = false;
+end
+x = At(y);
+d = zeros(size(x));
+for i = 1:Nit
+u = soft(x + d, 0.5*lambda/mu) - d;
+d = 1/(mu + p) * At(y - A(u));
+x = d + u;
+if ComputeCost
+residual = y - A(x);
+cost(i) = sum(abs(residual(:)).^2) + sum(abs(lambda *
+x(:)));
+end
+end
+function [x, cost] = mimo_anttena_salsa(y, A, At, p, mu, Nit,
+lambda)
+% 无噪声条件下L1正则化最小二乘法
+if nargin < 7
+lambda = 1;
+end
+x = At(y);
+d = zeros(size(x));
+cost = zeros(1,Nit);
+for i = 1:Nit
+u = soft(x + d, 0.5*lambda/mu) - d;
+d = (1/p) * At(y - A(u));
+x = d + u;
+cost(i) = sum(lambda(:) .* abs(x(:)));
+end
+function y = soft(x, T)
+%软阈值运算
+y = max(1 - T./abs(x), 0) .* x;
+51

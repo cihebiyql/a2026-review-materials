@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "UNKNOWN",
+  "repository_commit": "03fa14a910d15a2c8e45b0b1e20048ed6c135eaf",
+  "selected_solver_version": null,
+  "source_paths_relative_to_workspace": {
+    "v2_full_scan": "../A题_代码包/deliverables/full_scan.jsonl",
+    "v2_statistics": "../A题_代码包/deliverables/stats/",
+    "reports": "../迭代报告_自动同步/"
+  },
+  "independent_variables": {
+    "case_id": "官方输入图实例标识；具体集合待按所选实验固定",
+    "num_cores": "参与调度的处理核数；按题目与实验记录核对",
+    "problem": "问题编号及场景设置；三问分别统计",
+    "solver_version": "求解器版本与参数配置；不同版本分开统计"
+  },
+  "metric_definitions_to_verify": {
+    "mean_speedup": "同一用例单核基准时间除以方法时间，再对指定实例集合取算术平均",
+    "p3_relative_speedup": "同方案无L2时间除以只读Cache时间；与相对单核基准加速比区分"
+  },
+  "metrics": [],
+  "notes": "工作区初始化索引，不含新运行或已独立核验的实验数值。"
+}

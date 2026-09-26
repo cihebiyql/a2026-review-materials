@@ -1,0 +1,301 @@
+case,Q,mk,sp,source,plan_file
+case_001,1,47502,4.9073723211654245,seedsync_q1 strand_n5\case_001_q1_N5.json,case_001_q1_N5.json
+case_002,1,60254,4.3473462342749025,reconcile final_seeds,case_002_q1_N5.json
+case_003,1,464504,1.2964624631865387,reconcile final_seeds,case_003_q1_N5.json
+case_004,1,88341,4.441391879195391,seedsync_q1 final_seeds,case_004_q1_N5.json
+case_005,1,76076,1.2568747042431252,reconcile final_seeds,case_005_q1_N5.json
+case_006,1,26961,3.0724750565631838,reconcile final_seeds,case_006_q1_N5.json
+case_007,1,203834,4.967581463347626,seedsync_q1 final_seeds,case_007_q1_N5.json
+case_008,1,100603,4.846823653370178,seedsync_q1 strand_n5\case_008_q1_N5.json,case_008_q1_N5.json
+case_009,1,88391,1.7338982475591407,reconcile final_seeds,case_009_q1_N5.json
+case_010,1,24871,3.4968035060914318,reconcile final_seeds,case_010_q1_N5.json
+case_011,1,46880,3.9397824232081913,seedsync_q1 final_seeds,case_011_q1_N5.json
+case_012,1,15486,3.8155753583882217,reconcile final_seeds,case_012_q1_N5.json
+case_013,1,55154,4.785672843311455,seedsync_q1 final_seeds,case_013_q1_N5.json
+case_014,1,3631292,4.8739198059533635,seedsync_q1 final_seeds,case_014_q1_N5.json
+case_015,1,43263,4.099623234634676,reconcile final_seeds,case_015_q1_N5.json
+case_016,1,3397411,2.271000770881121,seedsync_q1 strand_n5\case_016_q1_N5.json,case_016_q1_N5.json
+case_017,1,34707,4.690984527616907,reconcile final_seeds,case_017_q1_N5.json
+case_018,1,213680,4.700332272557095,seedsync_q1 final_seeds,case_018_q1_N5.json
+case_019,1,17993,4.509753793141777,reconcile final_seeds,case_019_q1_N5.json
+case_020,1,107954,4.934935250199159,seedsync_q1 strand_n5\case_020_q1_N5.json,case_020_q1_N5.json
+case_021,1,1243902,5.280108079253832,seedsync_q1 final_seeds,case_021_q1_N5.json
+case_022,1,12133,4.679798895574054,reconcile final_seeds,case_022_q1_N5.json
+case_023,1,26417,4.641480864594769,reconcile final_seeds,case_023_q1_N5.json
+case_024,1,1124755,2.2719107716791656,seedsync_q1 strand_n5\case_024_q1_N5.json,case_024_q1_N5.json
+case_025,1,983288,4.945678173637836,seedsync_q1 final_seeds,case_025_q1_N5.json
+case_026,1,41277,2.4033481115391138,reconcile final_seeds,case_026_q1_N5.json
+case_027,1,558753,4.230763861670542,reconcile_honest_reeval,case_027_q1_N5.json
+case_028,1,9126544,4.803136871963801,seedsync_q1 final_seeds,case_028_q1_N5.json
+case_029,1,11644,3.2252662315355547,reconcile final_seeds,case_029_q1_N5.json
+case_030,1,575593,4.87850616668375,seedsync_q1 final_seeds,case_030_q1_N5.json
+case_031,1,299067,4.729271367285592,seedsync_q1 final_seeds,case_031_q1_N5.json
+case_032,1,10192,4.0662284144427,reconcile final_seeds,case_032_q1_N5.json
+case_033,1,367538,4.827245073978745,seedsync_q1 final_seeds,case_033_q1_N5.json
+case_034,1,177666,4.744835815519008,seedsync_q1 final_seeds,case_034_q1_N5.json
+case_035,1,89447,1.89577067984393,reconcile final_seeds,case_035_q1_N5.json
+case_036,1,187182,4.976493466252097,seedsync_q1 strand_n5\case_036_q1_N5.json,case_036_q1_N5.json
+case_037,1,43013,4.882268151489085,seedsync_q1 final_seeds,case_037_q1_N5.json
+case_038,1,291927,4.67430213717813,reconcile final_seeds,case_038_q1_N5.json
+case_039,1,315610,4.547580875130699,reconcile final_seeds,case_039_q1_N5.json
+case_040,1,100515,2.521553996915883,reconcile final_seeds,case_040_q1_N5.json
+case_041,1,1220843,4.917878056392182,seedsync_q1 final_seeds,case_041_q1_N5.json
+case_042,1,347324,4.856387695638654,seedsync_q1 final_seeds,case_042_q1_N5.json
+case_043,1,219345,3.089452688686772,reconcile final_seeds,case_043_q1_N5.json
+case_044,1,87560,1.7634422110552763,reconcile final_seeds,case_044_q1_N5.json
+case_045,1,26558,4.729798930642367,seedsync_q1 strand_n5\case_045_q1_N5.json,case_045_q1_N5.json
+case_046,1,100302,2.756226196885406,reconcile final_seeds,case_046_q1_N5.json
+case_047,1,304674,1.0716634829358593,seedsync_q1 final_seeds,case_047_q1_N5.json
+case_048,1,212734,1.0445908975528124,seedsync_q1 final_seeds,case_048_q1_N5.json
+case_049,1,129746,1.5127711066237108,reconcile final_seeds,case_049_q1_N5.json
+case_050,1,88020,1.700636219041127,reconcile final_seeds,case_050_q1_N5.json
+case_051,1,267458,2.271863245818035,seedsync_q1 strand_n5\case_051_q1_N5.json,case_051_q1_N5.json
+case_052,1,38553,4.676704795995124,reconcile final_seeds,case_052_q1_N5.json
+case_053,1,538726,2.733645675166968,reconcile_honest_reeval,case_053_q1_N5.json
+case_054,1,463077,1.760076617927472,reconcile final_seeds,case_054_q1_N5.json
+case_055,1,25484,4.663121958876157,reconcile final_seeds,case_055_q1_N5.json
+case_056,1,233361,1.1882233963687163,reconcile final_seeds,case_056_q1_N5.json
+case_057,1,13939,4.284812396872086,reconcile final_seeds,case_057_q1_N5.json
+case_058,1,943156,4.813325685252493,seedsync_q1 final_seeds,case_058_q1_N5.json
+case_059,1,150782,5.501140719714555,seedsync_q1 final_seeds,case_059_q1_N5.json
+case_060,1,185416,4.793485999050783,seedsync_q1 final_seeds,case_060_q1_N5.json
+case_061,1,19795,3.899520080828492,reconcile final_seeds,case_061_q1_N5.json
+case_062,1,645102,4.425360640642875,reconcile final_seeds,case_062_q1_N5.json
+case_063,1,236022,4.535157739532756,reconcile final_seeds,case_063_q1_N5.json
+case_064,1,16589,1.1523298571342455,reconcile final_seeds,case_064_q1_N5.json
+case_065,1,12238,4.336329465598954,reconcile final_seeds,case_065_q1_N5.json
+case_066,1,144086,2.4920533570228893,reconcile final_seeds,case_066_q1_N5.json
+case_067,1,13760441,4.639010770076337,reconcile_honest_reeval,case_067_q1_N5.json
+case_068,1,282097,1.2835833064513271,reconcile final_seeds,case_068_q1_N5.json
+case_069,1,11244,2.2362148701529705,reconcile final_seeds,case_069_q1_N5.json
+case_070,1,27133,4.3231489330335755,reconcile final_seeds,case_070_q1_N5.json
+case_071,1,9994,1.8930358214928957,reconcile final_seeds,case_071_q1_N5.json
+case_072,1,4876863,4.900245916278559,seedsync_q1 final_seeds,case_072_q1_N5.json
+case_073,1,3249298,3.1027089543649122,reconcile_honest_reeval,case_073_q1_N5.json
+case_074,1,345696,4.866237966305656,seedsync_q1 final_seeds,case_074_q1_N5.json
+case_075,1,712889,2.022487371806831,seedsync_q1 final_seeds,case_075_q1_N5.json
+case_076,1,1288446,4.800444100878112,seedsync_q1 final_seeds,case_076_q1_N5.json
+case_077,1,183092,2.705306621807616,reconcile_honest_reeval,case_077_q1_N5.json
+case_078,1,488721,4.698269564843745,seedsync_q1 final_seeds,case_078_q1_N5.json
+case_079,1,6024018,5.154740739486503,seedsync_q1 final_seeds,case_079_q1_N5.json
+case_080,1,117985,2.4760605161673093,reconcile_honest_reeval,case_080_q1_N5.json
+case_081,1,43384,3.4988705513553384,reconcile final_seeds,case_081_q1_N5.json
+case_082,1,328920,2.192147026632616,reconcile final_seeds,case_082_q1_N5.json
+case_083,1,574144,1.8427310918515216,reconcile_honest_reeval,case_083_q1_N5.json
+case_084,1,403428,6.21526517742943,absorb_compliant,case_084_q1_N5.json
+case_085,1,1468896,2.170268691588785,seedsync_q1 final_seeds,case_085_q1_N5.json
+case_086,1,95689,1.2373731567891817,reconcile final_seeds,case_086_q1_N5.json
+case_087,1,838095,4.741790608463241,reconcile final_seeds,case_087_q1_N5.json
+case_088,1,175173,1.3907565663658212,reconcile final_seeds,case_088_q1_N5.json
+case_089,1,147432,4.701096098540344,seedsync_q1 strand_n5\case_089_q1_N5.json,case_089_q1_N5.json
+case_090,1,339499,3.470887984942518,reconcile final_seeds,case_090_q1_N5.json
+case_091,1,1901896,4.83032142661849,seedsync_q1 final_seeds,case_091_q1_N5.json
+case_092,1,2320718,2.0750276423072513,reconcile_honest_reeval,case_092_q1_N5.json
+case_093,1,15876,4.674036281179139,seedsync_q1 final_seeds,case_093_q1_N5.json
+case_094,1,22552,4.207697765164952,reconcile final_seeds,case_094_q1_N5.json
+case_095,1,420852,4.953886401870491,seedsync_q1 strand_n5\case_095_q1_N5.json,case_095_q1_N5.json
+case_096,1,27135,3.102782384374424,reconcile final_seeds,case_096_q1_N5.json
+case_097,1,2096179,5.482121994352582,seedsync_q1 final_seeds,case_097_q1_N5.json
+case_098,1,76750,2.3117915309446255,reconcile final_seeds,case_098_q1_N5.json
+case_099,1,333534,4.8660676272883725,seedsync_q1 final_seeds,case_099_q1_N5.json
+case_100,1,53395,2.832156568967132,reconcile final_seeds,case_100_q1_N5.json
+case_001,2,47502,4.9073723211654245,seedsync_q2 refined\case_001_q2_N5.json,case_001_q2_N5.json
+case_002,2,53799,4.868956672057101,reconcile final_seeds,case_002_q2_N5.json
+case_003,2,235418,2.5580541844718754,reconcile_runs_tree_verified,case_003_q2_N5.json
+case_004,2,85236,4.603184100614763,mechA_deep_seq B=22 L=2,case_004_q2_N5.json
+case_005,2,46313,2.0646038909161573,reconcile final_seeds,case_005_q2_N5.json
+case_006,2,19736,4.197253749493312,reconcile final_seeds,case_006_q2_N5.json
+case_007,2,197052,5.1385522603170735,mechA_deep_seq B=22 L=2,case_007_q2_N5.json
+case_008,2,63883,7.632781804235869,mechA_deep B=48 L=4,case_008_q2_N5.json
+case_009,2,82666,1.8539786611182347,mechA_deep_seq B=4 L=3,case_009_q2_N5.json
+case_010,2,18737,4.641564818274003,reconcile final_seeds,case_010_q2_N5.json
+case_011,2,39441,4.682868081438097,reconcile final_seeds,case_011_q2_N5.json
+case_012,2,13536,4.365248226950355,reconcile final_seeds,case_012_q2_N5.json
+case_013,2,54117,4.8773767947225455,reconcile final_seeds,case_013_q2_N5.json
+case_014,2,3552237,4.982388843987605,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_014_q2_N5.json
+case_015,2,37891,4.680847694703227,reconcile final_seeds,case_015_q2_N5.json
+case_016,2,2240433,3.4437642187916353,reconcile final_seeds,case_016_q2_N5.json
+case_017,2,32743,4.97236050453532,reconcile final_seeds,case_017_q2_N5.json
+case_018,2,197324,5.089938375463705,absorb_compliant,case_018_q2_N5.json
+case_019,2,15040,5.395212765957447,mechA_deep_seq B=110 L=2,case_019_q2_N5.json
+case_020,2,107111,4.973774869061067,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,case_020_q2_N5.json
+case_021,2,1249261,5.257457809056715,mechA_deep_seq B=4 L=3,case_021_q2_N5.json
+case_022,2,11654,4.872146902351124,reconcile final_seeds,case_022_q2_N5.json
+case_023,2,23240,5.275989672977625,seedsync_q2 final_seeds,case_023_q2_N5.json
+case_024,2,743336,3.437668833475037,reconcile final_seeds,case_024_q2_N5.json
+case_025,2,943120,5.15631732971414,mechA_deep_seq B=14 L=2,case_025_q2_N5.json
+case_026,2,34778,2.8524642015066997,reconcile_runs_tree_verified,case_026_q2_N5.json
+case_027,2,460949,5.128445880129906,seedsync_q2 strand_n5\case_027_q2_N5.json,case_027_q2_N5.json
+case_028,2,8056841,5.440847101239804,reconcile_runs_tree_verified,case_028_q2_N5.json
+case_029,2,8406,4.467642160361646,reconcile final_seeds,case_029_q2_N5.json
+case_030,2,559258,5.020999252581099,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_030_q2_N5.json
+case_031,2,285308,4.957340838672592,reconcile final_seeds,case_031_q2_N5.json
+case_032,2,12125,3.417979381443299,reconcile_runs_tree_verified,case_032_q2_N5.json
+case_033,2,354075,5.0107914989762055,seedsync_q2 final_seeds,case_033_q2_N5.json
+case_034,2,163258,5.163581570275269,absorb_compliant,case_034_q2_N5.json
+case_035,2,78524,2.1594799042331005,reconcile final_seeds,case_035_q2_N5.json
+case_036,2,187182,4.976493466252097,seedsync_q2 refined\case_036_q2_N5.json,case_036_q2_N5.json
+case_037,2,43013,4.882268151489085,seedsync_q2 refined\case_037_q2_N5.json,case_037_q2_N5.json
+case_038,2,274321,4.974300181174609,reconcile_runs_tree_verified,case_038_q2_N5.json
+case_039,2,309829,4.632432729021493,"mechA_v4 ('min_id', 8, 3, False, True)",case_039_q2_N5.json
+case_040,2,88594,2.8608483644490597,reconcile final_seeds,case_040_q2_N5.json
+case_041,2,1197056,5.015602444664243,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,case_041_q2_N5.json
+case_042,2,342415,4.9260108348057186,reconcile_runs_tree_verified,case_042_q2_N5.json
+case_043,2,191753,3.534004683107957,reconcile final_seeds,case_043_q2_N5.json
+case_044,2,36988,4.174516059262464,reconcile final_seeds,case_044_q2_N5.json
+case_045,2,25694,4.888845644897642,reconcile final_seeds,case_045_q2_N5.json
+case_046,2,74398,3.7158929003467835,verified_detail,case_046_q2_N5.json
+case_047,2,203922,1.601141612969665,reconcile final_seeds,case_047_q2_N5.json
+case_048,2,143722,1.5461794297324,reconcile final_seeds,case_048_q2_N5.json
+case_049,2,80512,2.4378477742448332,reconcile final_seeds,case_049_q2_N5.json
+case_050,2,59376,2.521052277014282,reconcile final_seeds,case_050_q2_N5.json
+case_051,2,178070,3.4122985342842704,seedsync_q2 final_seeds,case_051_q2_N5.json
+case_052,2,37293,4.834714289544955,reconcile_runs_tree_verified,case_052_q2_N5.json
+case_053,2,399608,3.685326620087686,reconcile_runs_tree_verified,case_053_q2_N5.json
+case_054,2,280680,2.9038442354282457,reconcile_runs_tree_verified,case_054_q2_N5.json
+case_055,2,27351,4.34481371796278,reconcile_runs_tree_verified,case_055_q2_N5.json
+case_056,2,124664,2.2242588076750307,reconcile final_seeds,case_056_q2_N5.json
+case_057,2,12813,4.661359556700226,reconcile final_seeds,case_057_q2_N5.json
+case_058,2,906467,5.00814370517625,mechA_deep_seq B=196 L=3,case_058_q2_N5.json
+case_059,2,150782,5.501140719714555,seedsync_q2 refined\case_059_q2_N5.json,case_059_q2_N5.json
+case_060,2,179432,4.95334722903384,seedsync_q2 final_seeds,case_060_q2_N5.json
+case_061,2,19061,4.049682597974923,reconcile final_seeds,case_061_q2_N5.json
+case_062,2,587612,4.858323179240723,seedsync_q2 final_seeds,case_062_q2_N5.json
+case_063,2,227101,4.713308175657527,reconcile final_seeds,case_063_q2_N5.json
+case_064,2,14916,1.2815768302493966,reconcile_runs_tree_verified,case_064_q2_N5.json
+case_065,2,10277,5.163763744283351,reconcile final_seeds,case_065_q2_N5.json
+case_066,2,126172,2.845877056716229,reconcile final_seeds,case_066_q2_N5.json
+case_067,2,12588983,5.070690301194306,reconcile_runs_tree_verified,case_067_q2_N5.json
+case_068,2,167859,2.1571378359218154,reconcile_runs_tree_verified,case_068_q2_N5.json
+case_069,2,8920,2.818834080717489,reconcile final_seeds,case_069_q2_N5.json
+case_070,2,24440,4.799509001636661,reconcile final_seeds,case_070_q2_N5.json
+case_071,2,7578,2.496569015571391,reconcile final_seeds,case_071_q2_N5.json
+case_072,2,4696136,5.088827921508235,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_072_q2_N5.json
+case_073,2,1854429,5.436512263343595,reconcile_runs_tree_verified,case_073_q2_N5.json
+case_074,2,335984,5.006902114386399,seedsync_q2 final_seeds,case_074_q2_N5.json
+case_075,2,427591,3.3719348629882293,reconcile_runs_tree_verified,case_075_q2_N5.json
+case_076,2,1227055,5.040615946310475,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_076_q2_N5.json
+case_077,2,107630,4.602062621945554,reconcile final_seeds,case_077_q2_N5.json
+case_078,2,477567,4.808001809170231,reconcile final_seeds,case_078_q2_N5.json
+case_079,2,5981709,5.191200541517483,reinforce_assign B=96 L=4 iters=50 N=128 seed=0 stub=False,case_079_q2_N5.json
+case_080,2,93299,3.131201834960718,verified_detail,case_080_q2_N5.json
+case_081,2,31373,4.83839607305645,reconcile_runs_tree_verified,case_081_q2_N5.json
+case_082,2,209247,3.4458845288104487,reconcile_runs_tree_verified,case_082_q2_N5.json
+case_083,2,200760,5.269939230922494,reconcile_runs_tree_verified,case_083_q2_N5.json
+case_084,2,283824,8.83439032639946,mechA_deep_seq B=216 L=4,case_084_q2_N5.json
+case_085,2,848638,3.7564886323732853,reconcile_runs_tree_verified,case_085_q2_N5.json
+case_086,2,58160,2.035814993122421,verified_detail,case_086_q2_N5.json
+case_087,2,853863,4.6542255607749725,reconcile_runs_tree_verified,case_087_q2_N5.json
+case_088,2,102798,2.369919648242184,reconcile final_seeds,case_088_q2_N5.json
+case_089,2,123062,5.632055386715639,reconcile_runs_tree_verified,case_089_q2_N5.json
+case_090,2,276685,4.258861159802664,reconcile final_seeds,case_090_q2_N5.json
+case_091,2,1848400,4.970119562865181,reinforce_assign B=16 L=4 iters=50 N=128 seed=0 stub=False,case_091_q2_N5.json
+case_092,2,806778,5.968871238432381,reconcile_runs_tree_verified,case_092_q2_N5.json
+case_093,2,15876,4.674036281179139,reconcile_runs_tree_verified,case_093_q2_N5.json
+case_094,2,19895,4.769640613219402,reconcile_runs_tree_verified,case_094_q2_N5.json
+case_095,2,263772,7.903996633456167,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_095_q2_N5.json
+case_096,2,24217,3.476648635256225,reconcile final_seeds,case_096_q2_N5.json
+case_097,2,2102348,5.466035594487687,reconcile_runs_tree_verified,case_097_q2_N5.json
+case_098,2,51910,3.4180312078597574,reconcile final_seeds,case_098_q2_N5.json
+case_099,2,327029,4.962859562913381,mechA_deep_seq B=48 L=3,case_099_q2_N5.json
+case_100,2,51921,2.9125594653415767,verified_detail,case_100_q2_N5.json
+case_001,3,47502,4.9073723211654245,seedsync3 refined2\case_001_q3_N5.json,case_001_q3_N5.json
+case_002,3,53799,4.868956672057101,reconcile final_seeds,case_002_q3_N5.json
+case_003,3,221809,2.7150025472365864,seedsync3 refined8\case_003_q3_N5.json,case_003_q3_N5.json
+case_004,3,85236,4.603184100614763,mechA_p3,case_004_q3_N5.json
+case_005,3,42227,2.2643806095626022,seedsync3 refined8\case_005_q3_N5.json,case_005_q3_N5.json
+case_006,3,17983,4.606406050158483,reconcile refined8,case_006_q3_N5.json
+case_007,3,197052,5.1385522603170735,mechA_p3,case_007_q3_N5.json
+case_008,3,63883,7.632781804235869,mechA_deep B=48 L=4,case_008_q3_N5.json
+case_009,3,69144,2.2165480735855607,reconcile refined8,case_009_q3_N5.json
+case_010,3,18683,4.654980463522989,seedsync3 final_seeds_q3,case_010_q3_N5.json
+case_011,3,39441,4.682868081438097,reconcile final_seeds,case_011_q3_N5.json
+case_012,3,13457,4.390874637735008,seedsync3 final_seeds_q3,case_012_q3_N5.json
+case_013,3,53825,4.903836507199257,"mechA_v3 ('by_depth', 4, 2)",case_013_q3_N5.json
+case_014,3,3683682,4.804602025907774,reconcile_runs_tree_verified,case_014_q3_N5.json
+case_015,3,37891,4.680847694703227,seedsync3 final_seeds_q3,case_015_q3_N5.json
+case_016,3,2240433,3.4437642187916353,seedsync3 final_seeds_q3,case_016_q3_N5.json
+case_017,3,32743,4.97236050453532,reconcile final_seeds,case_017_q3_N5.json
+case_018,3,198788,5.05245286435801,absorb_compliant,case_018_q3_N5.json
+case_019,3,16310,4.975107296137339,seedsync3 refined\case_019_q3_N5.json,case_019_q3_N5.json
+case_020,3,107650,4.948871342313051,reconcile_runs_tree_verified,case_020_q3_N5.json
+case_021,3,1249380,5.256957050697146,reconcile final_seeds,case_021_q3_N5.json
+case_022,3,11654,4.872146902351124,seedsync3 final_seeds_q3,case_022_q3_N5.json
+case_023,3,23240,5.275989672977625,seedsync3 final_seeds_q3,case_023_q3_N5.json
+case_024,3,743336,3.437668833475037,seedsync3 final_seeds_q3,case_024_q3_N5.json
+case_025,3,943120,5.15631732971414,mechA_p3,case_025_q3_N5.json
+case_026,3,26739,3.7100489921089044,seedsync3 refined8\case_026_q3_N5.json,case_026_q3_N5.json
+case_027,3,460949,5.128445880129906,seedsync3 strand_n5\case_027_q3_N5.json,case_027_q3_N5.json
+case_028,3,8049671,5.445693370573779,seedsync3 final_seeds_q3,case_028_q3_N5.json
+case_029,3,8215,4.571515520389531,seedsync3 final_seeds_q3,case_029_q3_N5.json
+case_030,3,561153,5.004043460517898,absorb_compliant,case_030_q3_N5.json
+case_031,3,285308,4.957340838672592,seedsync3 final_seeds_q3,case_031_q3_N5.json
+case_032,3,10167,4.076227008950526,reconcile refined8,case_032_q3_N5.json
+case_033,3,354075,5.0107914989762055,seedsync3 final_seeds_q3,case_033_q3_N5.json
+case_034,3,165016,5.108571290056722,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_034_q3_N5.json
+case_035,3,76788,2.2083007761629423,seedsync3 refined8\case_035_q3_N5.json,case_035_q3_N5.json
+case_036,3,187182,4.976493466252097,seedsync3 refined\case_036_q3_N5.json,case_036_q3_N5.json
+case_037,3,43013,4.882268151489085,seedsync3 refined\case_037_q3_N5.json,case_037_q3_N5.json
+case_038,3,271223,5.031118304863526,absorb_compliant,case_038_q3_N5.json
+case_039,3,293525,4.889743633421344,seedsync3 final_seeds_q3,case_039_q3_N5.json
+case_040,3,88528,2.862981203686969,seedsync3 final_seeds_q3,case_040_q3_N5.json
+case_041,3,1200116,5.00281389465685,absorb_compliant,case_041_q3_N5.json
+case_042,3,341473,4.939599909802532,absorb_compliant,case_042_q3_N5.json
+case_043,3,191297,3.542428788742113,reconcile final_seeds,case_043_q3_N5.json
+case_044,3,36573,4.221884997129029,seedsync3 final_seeds_q3,case_044_q3_N5.json
+case_045,3,25694,4.888845644897642,seedsync3 final_seeds_q3,case_045_q3_N5.json
+case_046,3,63424,4.358838925327952,seedsync3 refined2\case_046_q3_N5.json,case_046_q3_N5.json
+case_047,3,193029,1.691497132555212,seedsync3 refined8\case_047_q3_N5.json,case_047_q3_N5.json
+case_048,3,137414,1.617156912687208,mechA_p3,case_048_q3_N5.json
+case_049,3,79789,2.459938086703681,reconcile refined8,case_049_q3_N5.json
+case_050,3,59181,2.5293590848414187,seedsync3 refined8\case_050_q3_N5.json,case_050_q3_N5.json
+case_051,3,178070,3.4122985342842704,seedsync3 refined8\case_051_q3_N5.json,case_051_q3_N5.json
+case_052,3,34629,5.206647607496607,seedsync3 refined\case_052_q3_N5.json,case_052_q3_N5.json
+case_053,3,374425,3.9331935634639783,reconcile_runs_tree_verified,case_053_q3_N5.json
+case_054,3,273282,2.9824540218528846,reconcile_runs_tree_verified,case_054_q3_N5.json
+case_055,3,23642,5.026436003722189,seedsync3 final_seeds_q3,case_055_q3_N5.json
+case_056,3,124066,2.234979768832718,seedsync3 final_seeds_q3,case_056_q3_N5.json
+case_057,3,12813,4.661359556700226,seedsync3 final_seeds_q3,case_057_q3_N5.json
+case_058,3,937354,4.843119035071061,seedsync3 final_seeds_q3,case_058_q3_N5.json
+case_059,3,150736,5.502819498991615,seedsync3 final_seeds_q3,case_059_q3_N5.json
+case_060,3,178271,4.985606183843698,seedsync3 final_seeds_q3,case_060_q3_N5.json
+case_061,3,19042,4.053723348387774,seedsync3 final_seeds_q3,case_061_q3_N5.json
+case_062,3,587612,4.858323179240723,seedsync3 final_seeds_q3,case_062_q3_N5.json
+case_063,3,227101,4.713308175657527,seedsync3 final_seeds_q3,case_063_q3_N5.json
+case_064,3,14656,1.3043122270742358,reconcile refined8,case_064_q3_N5.json
+case_065,3,10277,5.163763744283351,seedsync3 final_seeds_q3,case_065_q3_N5.json
+case_066,3,125879,2.8525012114808663,seedsync3 final_seeds_q3,case_066_q3_N5.json
+case_067,3,12554416,5.084651806981703,reconcile_runs_tree_verified,case_067_q3_N5.json
+case_068,3,159144,2.27526642537576,reconcile_runs_tree_verified,case_068_q3_N5.json
+case_069,3,8631,2.913219789132198,seedsync3 final_seeds_q3,case_069_q3_N5.json
+case_070,3,24414,4.804620299827968,seedsync3 final_seeds_q3,case_070_q3_N5.json
+case_071,3,7588,2.493278861360042,seedsync3 final_seeds_q3,case_071_q3_N5.json
+case_072,3,4710456,5.073357653696372,absorb_compliant,case_072_q3_N5.json
+case_073,3,1768210,5.701599923086059,reconcile_runs_tree_verified,case_073_q3_N5.json
+case_074,3,334863,5.023663408617852,seedsync3 final_seeds_q3,case_074_q3_N5.json
+case_075,3,422094,3.4158481286159006,reconcile_runs_tree_verified,case_075_q3_N5.json
+case_076,3,1230171,5.02784816094673,absorb_compliant,case_076_q3_N5.json
+case_077,3,106363,4.656882562545246,seedsync3 final_seeds_q3,case_077_q3_N5.json
+case_078,3,453638,5.061619617404186,seedsync3 final_seeds_q3,case_078_q3_N5.json
+case_079,3,5997436,5.177587722486742,absorb_compliant,case_079_q3_N5.json
+case_080,3,68172,4.285307750982808,seedsync3 final_seeds_q3,case_080_q3_N5.json
+case_081,3,31373,4.83839607305645,reconcile_runs_tree_verified,case_081_q3_N5.json
+case_082,3,206093,3.4986195552493293,reconcile_runs_tree_verified,case_082_q3_N5.json
+case_083,3,198206,5.337845473900891,reconcile_runs_tree_verified,case_083_q3_N5.json
+case_084,3,283824,8.83439032639946,reinforce_assign B=220 L=4 iters=50 N=128 seed=0 stub=False,case_084_q3_N5.json
+case_085,3,834161,3.8216831043407686,reconcile_runs_tree_verified,case_085_q3_N5.json
+case_086,3,53232,2.2242823865344152,seedsync3 refined8\case_086_q3_N5.json,case_086_q3_N5.json
+case_087,3,840428,4.728627556435531,reconcile_runs_tree_verified,case_087_q3_N5.json
+case_088,3,102011,2.388203232984678,seedsync3 final_seeds_q3,case_088_q3_N5.json
+case_089,3,123062,5.632055386715639,reconcile_runs_tree_verified,case_089_q3_N5.json
+case_090,3,247585,4.759428075206495,reconcile final_seeds,case_090_q3_N5.json
+case_091,3,1854298,4.9543110114986915,absorb_compliant,case_091_q3_N5.json
+case_092,3,804952,5.982411373597432,reconcile_runs_tree_verified,case_092_q3_N5.json
+case_093,3,15876,4.674036281179139,reconcile_runs_tree_verified,case_093_q3_N5.json
+case_094,3,19895,4.769640613219402,reconcile_runs_tree_verified,case_094_q3_N5.json
+case_095,3,263772,7.903996633456167,reinforce_assign B=48 L=4 iters=50 N=128 seed=0 stub=False,case_095_q3_N5.json
+case_096,3,24217,3.476648635256225,seedsync3 final_seeds_q3,case_096_q3_N5.json
+case_097,3,2102250,5.466290403139493,reconcile_runs_tree_verified,case_097_q3_N5.json
+case_098,3,51702,3.4317821360875786,seedsync3 final_seeds_q3,case_098_q3_N5.json
+case_099,3,326002,4.978493996969344,absorb_compliant,case_099_q3_N5.json
+case_100,3,41015,3.6870169450201145,seedsync3 refined8\case_100_q3_N5.json,case_100_q3_N5.json

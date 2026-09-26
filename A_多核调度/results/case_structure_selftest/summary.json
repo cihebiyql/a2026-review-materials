@@ -1,0 +1,32 @@
+{
+  "n_cases": 8,
+  "class_counts": {
+    "deep_chain": 3,
+    "multi_component": 1,
+    "converge_tree": 1,
+    "other": 3
+  },
+  "class_shares": {
+    "deep_chain": 0.375,
+    "multi_component": 0.125,
+    "converge_tree": 0.125,
+    "other": 0.375
+  },
+  "cases_with_cross_component_shared": 1,
+  "cases_with_external_shared": 1,
+  "cases_with_direct_op_edges": 0,
+  "total_direct_op_edges": 0,
+  "median": {
+    "n_ops_compute": 25.5,
+    "n_components": 1.0,
+    "largest_component_share": 1.0,
+    "merge_share": 0.0,
+    "longest_path_nodes": 5.0,
+    "path_ratio": 0.4274193548387097,
+    "shared_tensor_bytes_share": 0.0
+  },
+  "p90": {
+    "n_ops_compute": 40,
+    "longest_path_nodes": 20
+  }
+}

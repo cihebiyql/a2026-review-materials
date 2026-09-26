@@ -1,0 +1,11 @@
+{
+  "makespan": 43836040,
+  "data_movement_bytes": {
+    "original_graph_copy_bytes": 5908608,
+    "scheduled_copy_bytes": 283320864,
+    "added_copy_bytes": 277412256,
+    "partition_added_copy_bytes": 0,
+    "spill_added_copy_bytes": 277412256
+  },
+  "wall_seconds": 165.51320312917233
+}

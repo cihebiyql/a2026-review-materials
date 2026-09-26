@@ -1,0 +1,136 @@
+% !TeX program = xelatex
+% 基于团队模板，源仓库提交 03fa14a910d15a2c8e45b0b1e20048ed6c135eaf；正文为待补骨架。
+%=====================================================================
+% 华为杯研究生数模竞赛 · 官方风格 LaTeX 模板（AI 产线用）
+% 适配：附件2《论文格式规范》全部硬规 + 附件3官方Word模板实测参数
+%   （2026-09-22 经 Word COM 读取附件3 + PDF 文本层逐项核对）
+%   - 页边距：上3.0 / 下1.75 / 左2.25 / 右2.25 cm（=官方Word模板节参数）
+%   - 摘要页骨架照附件3：赛事名三行（华文新魏18/22/22pt）
+%     + "题 目：___"（隶书18pt标签，题目文字三号黑体——附件2规定）
+%     + "摘 要：/关键词："（隶书18pt标签，内容小四宋体）
+%   - 一级标题四号黑体居中；正文小四宋体；单倍行距
+%   - 无页眉；页码页脚中部小五、阿拉伯数字自摘要页起连续（封面节官方自带"0"）
+%   - 封面：官方Word模板填好后导出PDF（封面.pdf），本模板自动嵌入
+% 编译：xelatex 论文模板_官方风格.tex  （需编译两遍使目录/引用稳定）
+%=====================================================================
+\documentclass[12pt, a4paper]{ctexart}
+% ---- 字体：使用 Windows 系统中文字体（宋体/黑体/华文新魏/隶书），无需额外安装 ----
+% ---- 字体：使用 Windows 系统中文字体（宋体/黑体/华文新魏/隶书），无需额外安装 ----
+% 西文＝Times New Roman（等宽也用 Times：2025A 国一实测连 JSON 字段名都是 TimesNewRomanPSMT，
+%   无 Courier；官方附件2 仅规定汉字宋体，西文按中文 Word 默认）。
+\setmainfont{Times New Roman}
+\setmonofont{Times New Roman}
+\setCJKmainfont[AutoFakeBold=3.0, AutoFakeSlant=0.2]{SimSun}
+% \textbf 中文粗体修复（2026-09-26）：\songti 切换的是 ctex 内部 zhsong 族，
+% 绕过上面 mainfont 的粗体配置，导致正文 \textbf 静默回退常规字重（V008 起词条加粗未渲染）。
+% 重定义 zhsong 族挂 AutoFakeBold，\songti 路径即渲染伪粗宋体（与 2025A 国一 Word 伪粗同视觉）。
+\setCJKfamilyfont{zhsong}[AutoFakeBold=3.0]{SimSun}
+\setCJKsansfont{SimHei}
+\setCJKfamilyfont{xinwei}{STXinwei}   % 华文新魏：官方模板赛事名三行
+\setCJKfamilyfont{lishu}{LiSu}        % 隶书：官方模板"题 目/摘 要/关键词"标签
+
+\usepackage[a4paper, left=2.25cm, right=2.25cm, top=3.0cm, bottom=1.75cm, footskip=12pt]{geometry}
+\usepackage{amsmath}
+\usepackage{unicode-math}   % 数学整体 Times 化：newtxmath 在 xeCJK 下数学数字/重音/\mathrm 漏回 CMR，换 OpenType 方案
+\setmathfont{TeX Gyre Termes Math}   % Times 的 OpenType 数学版，全部数学字符单一 Times 族
+\usepackage{graphicx}
+\usepackage{booktabs}          % 三线表
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{pdfpages}          % 嵌官方封面用
+\usepackage{fancyhdr}          % 页码字号对齐官方（9pt≈小五）
+\usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+
+% ---- 页眉页脚：无页眉 + 页码页脚中部小五（官方模板页码为 9pt Times）----
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\zihao{-5}\thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+\pagestyle{plain}
+
+% ---- 标题层级格式：一级=四号黑体居中（附件2 规定）；二三级=小四宋体加粗（2025A 国一实测：
+%   二级标题 SimSun 12pt 加粗、黑体仅一级使用；官方对二三级无规定，按主基准口径）----
+\ctexset{
+  section = {format = {\centering\heiti\zihao{4}}, beforeskip=12pt, afterskip=8pt},
+  subsection = {format = {\raggedright\songti\bfseries\zihao{-4}}, beforeskip=8pt, afterskip=6pt},
+  subsubsection = {format = {\raggedright\songti\bfseries\zihao{-4}}, beforeskip=6pt, afterskip=4pt}
+}
+% ---- 图表题注：小五宋体，图题下方/表题上方，编号按节 ----
+\captionsetup{font={small}, labelsep=quad}
+% ---- 行距：正文基线距 ≈ 19.9pt，对齐 2025A 国一实测主峰（Word"单倍行距"的实际获奖解读；
+% 官方附件2 字面"单倍"≈15.6pt，无获奖论文实际采用；ctex 默认 1.3=18.7pt 偏紧）----
+\linespread{1.38}
+\emergencystretch=1.5em   % Times+伪粗变宽后的临界溢出兜底（允许断行器更大伸展，避免零星 Overfull）
+\setcounter{tocdepth}{2}  % 目录到二级（对齐 2025A 国一目录粒度；三级全收会溢出两页）
+
+% ---- 正文显式小四宋体（不依赖 12pt 隐式默认，换文档类不破）----
+\AtBeginDocument{\zihao{-4}\songti}
+
+% ---- 宽表降压宏：5列以上中文表头三线表用它包住 tabular 防超宽 ----
+% 用法：\begin{table}[h]\centering\caption{...}\widetable{\begin{tabular}{...}...\end{tabular}}\end{table}
+\newcommand{\widetable}[1]{{\small\setlength{\tabcolsep}{3.5pt}#1}}
+% 长公式放不下时：拆式 + \notag 续行，或多行 aligned 环境；编译后 grep Overfull 必须为零
+
+\usepackage{tabularx,xcolor,longtable}
+\graphicspath{{figs/}}
+\newcommand{\pending}[1]{\par\noindent\textcolor{red!65!black}{\textbf{[TODO / 待补]} #1}\par}
+\begin{document}
+
+% ===================== 封面（官方Word模板导出的PDF）=====================
+% 赛期操作：用 Word/WPS 打开附件3官方模板 → 填队伍信息 → 导出 PDF 为"封面.pdf"
+% → 与本文件同目录，取消下行注释即可嵌入。
+% 页码联动（已核官方参数）：官方封面节页码从"0"起、导出PDF自带页脚"0"；
+% 嵌入后下方 \setcounter{page}{1} 使摘要页从"1"起，与官方逻辑完全一致。
+% \includepdf[pages=1, pagecommand={\thispagestyle{empty}}]{封面.pdf}
+
+% ===================== 摘要页（页码从此页起为 1）=====================
+% 骨架照官方附件3逐项复刻（COM+PDF文本层核对）：
+%   赛事名三行 = 华文新魏 18/22/22pt；"题 目/摘 要/关键词"标签 = 隶书18pt。
+% 附件2规定"论文题目用三号黑体"——指填入下划线内的题目文字本身。
+% ⚠ 摘要预算：骨架头部约占版心 1/4（约10行当量），摘要正文须控制在版心 70% 以内，
+%   否则关键词溢出到第2页形成"幽灵页"（2026-09-22 全链演练实测）。
+\setcounter{page}{1}
+\vspace*{0.3cm}   % 官方摘要页赛事名首行 y≈123pt（版心顶下约38pt，已含center环境间距）
+\begin{center}
+  {\CJKfamily{xinwei}\zihao{-2} 中国研究生创新实践系列大赛}\\[10pt]
+  {\CJKfamily{xinwei}\zihao{2} “华为杯”第二十三届中国研究生}\\[10pt]
+  {\CJKfamily{xinwei}\zihao{2} 数学建模竞赛}
+\end{center}
+
+\vspace{1.8em}
+\begin{center}
+  {\CJKfamily{lishu}\zihao{-2} 题\quad 目：}\underline{\makebox[8.6cm][c]{\heiti\zihao{3} 多核调度论文标题（待定）}}
+\end{center}
+
+\vspace{1.8em}
+\noindent{\CJKfamily{lishu}\zihao{-2} 摘\quad 要：}\par
+\vspace{2pt}
+\zihao{-4}
+\pending{摘要 TODO：研究背景与总体任务；分别概括问题一、问题二、问题三的建模思路、采用方法、核心结果与验证；给出总体结论与适用范围。正文模型与结果稳定后撰写，不提前填入方法名称或量化结论。}
+
+\vspace{1.2em}
+\noindent{\CJKfamily{lishu}\zihao{-2} 关键词：}{\zihao{-4} 待根据最终模型填写}
+
+\newpage
+% ===================== 目录页（页码按官方规则自摘要页连续编号；"目录"标题随一级标题样式=四号黑体居中）=====================
+\tableofcontents
+
+\newpage
+% 冻结目录见 paper_outline.md；正文按章节拆分维护。
+\input{paper/sections/01_problem_overview.tex}
+\input{paper/sections/02_problem_analysis.tex}
+\input{paper/sections/03_assumptions_notation.tex}
+\input{paper/sections/04_model_A.tex}
+\input{paper/sections/05_model_B.tex}
+\input{paper/sections/06_joint_optimization.tex}
+\input{paper/sections/07_model_evaluation.tex}
+\input{paper/sections/08_references.tex}
+
+\appendix
+\section*{附录}
+\addcontentsline{toc}{section}{附录}
+\input{paper/appendix/A_problem1_results.tex}
+\input{paper/appendix/B_problem2_results.tex}
+\input{paper/appendix/C_problem3_results.tex}
+\input{paper/appendix/D_supplementary.tex}
+\end{document}

@@ -1,0 +1,600 @@
+{"key": "case_002|q1|random_search", "case": "case_002", "q": 1, "algo": "random_search", "mk": 95741, "sp": 2.736, "solve_s": 2.9}
+{"key": "case_001|q1|random_search", "case": "case_001", "q": 1, "algo": "random_search", "mk": 115658, "sp": 2.0155, "solve_s": 3.4}
+{"key": "case_001|q1|core_resident", "case": "case_001", "q": 1, "algo": "core_resident", "mk": 115658, "sp": 2.0155, "solve_s": 0.3}
+{"key": "case_002|q2|random_search", "case": "case_002", "q": 2, "algo": "random_search", "mk": 67781, "sp": 3.8646, "solve_s": 1.7}
+{"key": "case_001|q2|random_search", "case": "case_001", "q": 2, "algo": "random_search", "mk": 64407, "sp": 3.6193, "solve_s": 2.1}
+{"key": "case_001|q2|core_resident", "case": "case_001", "q": 2, "algo": "core_resident", "mk": 64407, "sp": 3.6193, "solve_s": 0.1}
+{"key": "case_002|q3|random_search", "case": "case_002", "q": 3, "algo": "random_search", "mk": 67781, "sp": 3.8646, "solve_s": 1.7}
+{"key": "case_004|q1|random_search", "case": "case_004", "q": 1, "algo": "random_search", "mk": 170093, "sp": 2.3067, "solve_s": 0.8}
+{"key": "case_001|q3|random_search", "case": "case_001", "q": 3, "algo": "random_search", "mk": 64407, "sp": 3.6193, "solve_s": 2.2}
+{"key": "case_004|q2|random_search", "case": "case_004", "q": 2, "algo": "random_search", "mk": 89745, "sp": 4.3719, "solve_s": 0.6}
+{"key": "case_001|q3|core_resident", "case": "case_001", "q": 3, "algo": "core_resident", "mk": 64407, "sp": 3.6193, "solve_s": 0.1}
+{"key": "case_004|q3|random_search", "case": "case_004", "q": 3, "algo": "random_search", "mk": 88389, "sp": 4.439, "solve_s": 0.7}
+{"key": "case_006|q1|random_search", "case": "case_006", "q": 1, "algo": "random_search", "mk": 57904, "sp": 1.4306, "solve_s": 0.6}
+{"key": "case_006|q2|random_search", "case": "case_006", "q": 2, "algo": "random_search", "mk": 46919, "sp": 1.7655, "solve_s": 0.5}
+{"key": "case_006|q3|random_search", "case": "case_006", "q": 3, "algo": "random_search", "mk": 46388, "sp": 1.7857, "solve_s": 0.6}
+{"key": "case_008|q1|random_search", "case": "case_008", "q": 1, "algo": "random_search", "mk": 213556, "sp": 2.2833, "solve_s": 1.2}
+{"key": "case_008|q1|core_resident", "case": "case_008", "q": 1, "algo": "core_resident", "mk": 178932, "sp": 2.7251, "solve_s": 0.3}
+{"key": "case_008|q2|random_search", "case": "case_008", "q": 2, "algo": "random_search", "mk": 102975, "sp": 4.7352, "solve_s": 1.1}
+{"key": "case_008|q2|core_resident", "case": "case_008", "q": 2, "algo": "core_resident", "mk": 103026, "sp": 4.7328, "solve_s": 0.3}
+{"key": "case_008|q3|random_search", "case": "case_008", "q": 3, "algo": "random_search", "mk": 102975, "sp": 4.7352, "solve_s": 1.1}
+{"key": "case_008|q3|core_resident", "case": "case_008", "q": 3, "algo": "core_resident", "mk": 103026, "sp": 4.7328, "solve_s": 0.3}
+{"key": "case_010|q1|random_search", "case": "case_010", "q": 1, "algo": "random_search", "mk": 52596, "sp": 1.6535, "solve_s": 0.6}
+{"key": "case_010|q2|random_search", "case": "case_010", "q": 2, "algo": "random_search", "mk": 34596, "sp": 2.5138, "solve_s": 0.7}
+{"key": "case_010|q3|random_search", "case": "case_010", "q": 3, "algo": "random_search", "mk": 34264, "sp": 2.5382, "solve_s": 0.5}
+{"key": "case_012|q1|random_search", "case": "case_012", "q": 1, "algo": "random_search", "mk": 39102, "sp": 1.5111, "solve_s": 1.1}
+{"key": "case_012|q2|random_search", "case": "case_012", "q": 2, "algo": "random_search", "mk": 28305, "sp": 2.0875, "solve_s": 1.1}
+{"key": "case_012|q3|random_search", "case": "case_012", "q": 3, "algo": "random_search", "mk": 28305, "sp": 2.0875, "solve_s": 1.0}
+{"key": "case_003|q1|random_search", "case": "case_003", "q": 1, "algo": "random_search", "mk": 526223, "sp": 1.1444, "solve_s": 19.5}
+{"key": "case_003|q2|random_search", "case": "case_003", "q": 2, "algo": "random_search", "mk": 521830, "sp": 1.154, "solve_s": 18.1}
+{"key": "case_003|q3|random_search", "case": "case_003", "q": 3, "algo": "random_search", "mk": 521831, "sp": 1.154, "solve_s": 23.4}
+{"key": "case_005|q1|random_search", "case": "case_005", "q": 1, "algo": "random_search", "mk": 93134, "sp": 1.0267, "solve_s": 4.5}
+{"key": "case_005|q2|random_search", "case": "case_005", "q": 2, "algo": "random_search", "mk": 87707, "sp": 1.0902, "solve_s": 6.2}
+{"key": "case_005|q3|random_search", "case": "case_005", "q": 3, "algo": "random_search", "mk": 87707, "sp": 1.0902, "solve_s": 5.8}
+{"key": "case_002|q1|core_resident", "case": "case_002", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_002|q2|core_resident", "case": "case_002", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_002|q3|core_resident", "case": "case_002", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_003|q1|core_resident", "case": "case_003", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_003|q2|core_resident", "case": "case_003", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_003|q3|core_resident", "case": "case_003", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_004|q1|core_resident", "case": "case_004", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_004|q2|core_resident", "case": "case_004", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_004|q3|core_resident", "case": "case_004", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_005|q1|core_resident", "case": "case_005", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_005|q2|core_resident", "case": "case_005", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_005|q3|core_resident", "case": "case_005", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_006|q1|core_resident", "case": "case_006", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_006|q2|core_resident", "case": "case_006", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_006|q3|core_resident", "case": "case_006", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_007|q1|random_search", "case": "case_007", "q": 1, "algo": "random_search", "mk": 359594, "sp": 2.8158, "solve_s": 3.4}
+{"key": "case_007|q1|core_resident", "case": "case_007", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_007|q2|random_search", "case": "case_007", "q": 2, "algo": "random_search", "mk": 283177, "sp": 3.5757, "solve_s": 1.3}
+{"key": "case_007|q2|core_resident", "case": "case_007", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_007|q3|random_search", "case": "case_007", "q": 3, "algo": "random_search", "mk": 283248, "sp": 3.5748, "solve_s": 1.2}
+{"key": "case_007|q3|core_resident", "case": "case_007", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_009|q1|random_search", "case": "case_009", "q": 1, "algo": "random_search", "mk": 95670, "sp": 1.602, "solve_s": 2.0}
+{"key": "case_009|q1|core_resident", "case": "case_009", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_009|q2|random_search", "case": "case_009", "q": 2, "algo": "random_search", "mk": 89304, "sp": 1.7162, "solve_s": 1.2}
+{"key": "case_009|q2|core_resident", "case": "case_009", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_009|q3|random_search", "case": "case_009", "q": 3, "algo": "random_search", "mk": 89304, "sp": 1.7162, "solve_s": 1.3}
+{"key": "case_009|q3|core_resident", "case": "case_009", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_010|q1|core_resident", "case": "case_010", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_010|q2|core_resident", "case": "case_010", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_010|q3|core_resident", "case": "case_010", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_011|q1|random_search", "case": "case_011", "q": 1, "algo": "random_search", "mk": 85932, "sp": 2.1493, "solve_s": 0.3}
+{"key": "case_011|q1|core_resident", "case": "case_011", "q": 1, "algo": "core_resident", "mk": 89983, "sp": 2.0526, "solve_s": 0.2}
+{"key": "case_011|q2|random_search", "case": "case_011", "q": 2, "algo": "random_search", "mk": 46229, "sp": 3.9953, "solve_s": 0.1}
+{"key": "case_011|q2|core_resident", "case": "case_011", "q": 2, "algo": "core_resident", "mk": 75676, "sp": 2.4406, "solve_s": 0.2}
+{"key": "case_011|q3|random_search", "case": "case_011", "q": 3, "algo": "random_search", "mk": 46229, "sp": 3.9953, "solve_s": 0.1}
+{"key": "case_011|q3|core_resident", "case": "case_011", "q": 3, "algo": "core_resident", "mk": 51442, "sp": 3.5904, "solve_s": 0.2}
+{"key": "case_012|q1|core_resident", "case": "case_012", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_012|q2|core_resident", "case": "case_012", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_012|q3|core_resident", "case": "case_012", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_013|q1|random_search", "case": "case_013", "q": 1, "algo": "random_search", "mk": 118440, "sp": 2.2285, "solve_s": 0.8}
+{"key": "case_013|q1|core_resident", "case": "case_013", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_013|q2|random_search", "case": "case_013", "q": 2, "algo": "random_search", "mk": 63217, "sp": 4.1753, "solve_s": 0.4}
+{"key": "case_013|q2|core_resident", "case": "case_013", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_013|q3|random_search", "case": "case_013", "q": 3, "algo": "random_search", "mk": 63053, "sp": 4.1861, "solve_s": 0.4}
+{"key": "case_013|q3|core_resident", "case": "case_013", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_014|q1|random_search", "case": "case_014", "q": 1, "algo": "random_search", "mk": 7548777, "sp": 2.3446, "solve_s": 385.9}
+{"key": "case_014|q1|core_resident", "case": "case_014", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_014|q2|random_search", "case": "case_014", "q": 2, "algo": "random_search", "mk": 6942379, "sp": 2.5494, "solve_s": 26.5}
+{"key": "case_014|q2|core_resident", "case": "case_014", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_014|q3|random_search", "case": "case_014", "q": 3, "algo": "random_search", "mk": 6866950, "sp": 2.5774, "solve_s": 27.9}
+{"key": "case_014|q3|core_resident", "case": "case_014", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_015|q1|random_search", "case": "case_015", "q": 1, "algo": "random_search", "mk": 134933, "sp": 1.3144, "solve_s": 0.3}
+{"key": "case_015|q1|core_resident", "case": "case_015", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_015|q2|random_search", "case": "case_015", "q": 2, "algo": "random_search", "mk": 115112, "sp": 1.5408, "solve_s": 0.2}
+{"key": "case_015|q2|core_resident", "case": "case_015", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_015|q3|random_search", "case": "case_015", "q": 3, "algo": "random_search", "mk": 115112, "sp": 1.5408, "solve_s": 0.2}
+{"key": "case_015|q3|core_resident", "case": "case_015", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_016|q1|random_search", "case": "case_016", "q": 1, "algo": "random_search", "mk": 7725349, "sp": 0.9987, "solve_s": 9.5}
+{"key": "case_016|q1|core_resident", "case": "case_016", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_016|q2|random_search", "case": "case_016", "q": 2, "algo": "random_search", "mk": 7720163, "sp": 0.9994, "solve_s": 5.7}
+{"key": "case_016|q2|core_resident", "case": "case_016", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_016|q3|random_search", "case": "case_016", "q": 3, "algo": "random_search", "mk": 7720163, "sp": 0.9994, "solve_s": 6.2}
+{"key": "case_016|q3|core_resident", "case": "case_016", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_017|q1|random_search", "case": "case_017", "q": 1, "algo": "random_search", "mk": 114470, "sp": 1.4223, "solve_s": 0.5}
+{"key": "case_017|q1|core_resident", "case": "case_017", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_017|q2|random_search", "case": "case_017", "q": 2, "algo": "random_search", "mk": 86758, "sp": 1.8766, "solve_s": 0.2}
+{"key": "case_017|q2|core_resident", "case": "case_017", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_017|q3|random_search", "case": "case_017", "q": 3, "algo": "random_search", "mk": 86758, "sp": 1.8766, "solve_s": 0.2}
+{"key": "case_017|q3|core_resident", "case": "case_017", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_018|q1|random_search", "case": "case_018", "q": 1, "algo": "random_search", "mk": 405547, "sp": 2.4766, "solve_s": 1.7}
+{"key": "case_018|q1|core_resident", "case": "case_018", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_018|q2|random_search", "case": "case_018", "q": 2, "algo": "random_search", "mk": 351345, "sp": 2.8586, "solve_s": 0.8}
+{"key": "case_018|q2|core_resident", "case": "case_018", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_018|q3|random_search", "case": "case_018", "q": 3, "algo": "random_search", "mk": 353495, "sp": 2.8412, "solve_s": 0.9}
+{"key": "case_018|q3|core_resident", "case": "case_018", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_019|q1|random_search", "case": "case_019", "q": 1, "algo": "random_search", "mk": 61965, "sp": 1.3095, "solve_s": 0.2}
+{"key": "case_019|q1|core_resident", "case": "case_019", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_019|q2|random_search", "case": "case_019", "q": 2, "algo": "random_search", "mk": 44528, "sp": 1.8223, "solve_s": 0.1}
+{"key": "case_019|q2|core_resident", "case": "case_019", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_019|q3|random_search", "case": "case_019", "q": 3, "algo": "random_search", "mk": 44452, "sp": 1.8254, "solve_s": 0.1}
+{"key": "case_019|q3|core_resident", "case": "case_019", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_020|q1|random_search", "case": "case_020", "q": 1, "algo": "random_search", "mk": 452822, "sp": 1.1765, "solve_s": 4.8}
+{"key": "case_020|q1|core_resident", "case": "case_020", "q": 1, "algo": "core_resident", "mk": 446932, "sp": 1.192, "solve_s": 5.2}
+{"key": "case_020|q2|random_search", "case": "case_020", "q": 2, "algo": "random_search", "mk": 327588, "sp": 1.6263, "solve_s": 2.5}
+{"key": "case_020|q2|core_resident", "case": "case_020", "q": 2, "algo": "core_resident", "mk": 331787, "sp": 1.6057, "solve_s": 3.7}
+{"key": "case_020|q3|random_search", "case": "case_020", "q": 3, "algo": "random_search", "mk": 314602, "sp": 1.6934, "solve_s": 2.9}
+{"key": "case_020|q3|core_resident", "case": "case_020", "q": 3, "algo": "core_resident", "mk": 315197, "sp": 1.6902, "solve_s": 4.1}
+{"key": "case_021|q1|random_search", "case": "case_021", "q": 1, "algo": "random_search", "mk": 1896767, "sp": 3.4627, "solve_s": 3.8}
+{"key": "case_021|q1|core_resident", "case": "case_021", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_021|q2|random_search", "case": "case_021", "q": 2, "algo": "random_search", "mk": 1975110, "sp": 3.3254, "solve_s": 2.2}
+{"key": "case_021|q2|core_resident", "case": "case_021", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_021|q3|random_search", "case": "case_021", "q": 3, "algo": "random_search", "mk": 1962120, "sp": 3.3474, "solve_s": 2.1}
+{"key": "case_021|q3|core_resident", "case": "case_021", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_022|q1|random_search", "case": "case_022", "q": 1, "algo": "random_search", "mk": 39218, "sp": 1.4478, "solve_s": 0.4}
+{"key": "case_022|q1|core_resident", "case": "case_022", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_022|q2|random_search", "case": "case_022", "q": 2, "algo": "random_search", "mk": 28002, "sp": 2.0277, "solve_s": 0.2}
+{"key": "case_022|q2|core_resident", "case": "case_022", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_022|q3|random_search", "case": "case_022", "q": 3, "algo": "random_search", "mk": 27976, "sp": 2.0296, "solve_s": 0.3}
+{"key": "case_022|q3|core_resident", "case": "case_022", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_023|q1|random_search", "case": "case_023", "q": 1, "algo": "random_search", "mk": 79454, "sp": 1.5432, "solve_s": 0.3}
+{"key": "case_023|q1|core_resident", "case": "case_023", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_023|q2|random_search", "case": "case_023", "q": 2, "algo": "random_search", "mk": 57047, "sp": 2.1494, "solve_s": 0.2}
+{"key": "case_023|q2|core_resident", "case": "case_023", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_023|q3|random_search", "case": "case_023", "q": 3, "algo": "random_search", "mk": 56951, "sp": 2.153, "solve_s": 0.2}
+{"key": "case_023|q3|core_resident", "case": "case_023", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_024|q1|random_search", "case": "case_024", "q": 1, "algo": "random_search", "mk": 2565040, "sp": 0.9962, "solve_s": 1.8}
+{"key": "case_024|q1|core_resident", "case": "case_024", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_024|q2|random_search", "case": "case_024", "q": 2, "algo": "random_search", "mk": 2559843, "sp": 0.9982, "solve_s": 1.4}
+{"key": "case_024|q2|core_resident", "case": "case_024", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_024|q3|random_search", "case": "case_024", "q": 3, "algo": "random_search", "mk": 2559428, "sp": 0.9984, "solve_s": 1.5}
+{"key": "case_024|q3|core_resident", "case": "case_024", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_025|q1|random_search", "case": "case_025", "q": 1, "algo": "random_search", "mk": 2038928, "sp": 2.3851, "solve_s": 124.1}
+{"key": "case_025|q1|core_resident", "case": "case_025", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_025|q2|random_search", "case": "case_025", "q": 2, "algo": "random_search", "mk": 1911717, "sp": 2.5438, "solve_s": 15.3}
+{"key": "case_025|q2|core_resident", "case": "case_025", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_025|q3|random_search", "case": "case_025", "q": 3, "algo": "random_search", "mk": 1911275, "sp": 2.5444, "solve_s": 16.6}
+{"key": "case_025|q3|core_resident", "case": "case_025", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_026|q1|random_search", "case": "case_026", "q": 1, "algo": "random_search", "mk": 83165, "sp": 1.1928, "solve_s": 0.2}
+{"key": "case_026|q1|core_resident", "case": "case_026", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_026|q2|random_search", "case": "case_026", "q": 2, "algo": "random_search", "mk": 76746, "sp": 1.2926, "solve_s": 0.1}
+{"key": "case_026|q2|core_resident", "case": "case_026", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_026|q3|random_search", "case": "case_026", "q": 3, "algo": "random_search", "mk": 76724, "sp": 1.293, "solve_s": 0.1}
+{"key": "case_026|q3|core_resident", "case": "case_026", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_027|q1|random_search", "case": "case_027", "q": 1, "algo": "random_search", "mk": 680318, "sp": 3.4748, "solve_s": 0.6}
+{"key": "case_027|q1|core_resident", "case": "case_027", "q": 1, "algo": "core_resident", "mk": 607065, "sp": 3.8941, "solve_s": 0.6}
+{"key": "case_027|q2|random_search", "case": "case_027", "q": 2, "algo": "random_search", "mk": 597852, "sp": 3.9541, "solve_s": 0.6}
+{"key": "case_027|q2|core_resident", "case": "case_027", "q": 2, "algo": "core_resident", "mk": 642325, "sp": 3.6803, "solve_s": 0.6}
+{"key": "case_027|q3|random_search", "case": "case_027", "q": 3, "algo": "random_search", "mk": 597420, "sp": 3.9569, "solve_s": 0.6}
+{"key": "case_027|q3|core_resident", "case": "case_027", "q": 3, "algo": "core_resident", "mk": 617675, "sp": 3.8272, "solve_s": 0.5}
+{"key": "case_028|q1|random_search", "case": "case_028", "q": 1, "algo": "random_search", "mk": 18333804, "sp": 2.391, "solve_s": 18.8}
+{"key": "case_028|q1|core_resident", "case": "case_028", "q": 1, "algo": "core_resident", "mk": 10184896, "sp": 4.304, "solve_s": 31.3}
+{"key": "case_028|q2|random_search", "case": "case_028", "q": 2, "algo": "random_search", "mk": 9410915, "sp": 4.658, "solve_s": 8.8}
+{"key": "case_028|q2|core_resident", "case": "case_028", "q": 2, "algo": "core_resident", "mk": 10194297, "sp": 4.3001, "solve_s": 23.4}
+{"key": "case_028|q3|random_search", "case": "case_028", "q": 3, "algo": "random_search", "mk": 8749063, "sp": 5.0104, "solve_s": 7.9}
+{"key": "case_028|q3|core_resident", "case": "case_028", "q": 3, "algo": "core_resident", "mk": 8981160, "sp": 4.8809, "solve_s": 19.8}
+{"key": "case_029|q1|random_search", "case": "case_029", "q": 1, "algo": "random_search", "mk": 26317, "sp": 1.427, "solve_s": 0.2}
+{"key": "case_029|q1|core_resident", "case": "case_029", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_029|q2|random_search", "case": "case_029", "q": 2, "algo": "random_search", "mk": 13938, "sp": 2.6944, "solve_s": 0.1}
+{"key": "case_029|q2|core_resident", "case": "case_029", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_029|q3|random_search", "case": "case_029", "q": 3, "algo": "random_search", "mk": 13936, "sp": 2.6948, "solve_s": 0.1}
+{"key": "case_029|q3|core_resident", "case": "case_029", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_030|q1|random_search", "case": "case_030", "q": 1, "algo": "random_search", "mk": 1450015, "sp": 1.9366, "solve_s": 17.2}
+{"key": "case_030|q1|core_resident", "case": "case_030", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_030|q2|random_search", "case": "case_030", "q": 2, "algo": "random_search", "mk": 1315850, "sp": 2.134, "solve_s": 5.2}
+{"key": "case_030|q2|core_resident", "case": "case_030", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_030|q3|random_search", "case": "case_030", "q": 3, "algo": "random_search", "mk": 1316262, "sp": 2.1333, "solve_s": 5.7}
+{"key": "case_030|q3|core_resident", "case": "case_030", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_031|q1|random_search", "case": "case_031", "q": 1, "algo": "random_search", "mk": 787563, "sp": 1.7959, "solve_s": 4.9}
+{"key": "case_031|q1|core_resident", "case": "case_031", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_031|q2|random_search", "case": "case_031", "q": 2, "algo": "random_search", "mk": 729927, "sp": 1.9377, "solve_s": 2.3}
+{"key": "case_031|q2|core_resident", "case": "case_031", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_031|q3|random_search", "case": "case_031", "q": 3, "algo": "random_search", "mk": 720607, "sp": 1.9627, "solve_s": 2.3}
+{"key": "case_031|q3|core_resident", "case": "case_031", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_032|q1|random_search", "case": "case_032", "q": 1, "algo": "random_search", "mk": 29221, "sp": 1.4183, "solve_s": 0.2}
+{"key": "case_032|q1|core_resident", "case": "case_032", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_032|q2|random_search", "case": "case_032", "q": 2, "algo": "random_search", "mk": 12912, "sp": 3.2096, "solve_s": 0.2}
+{"key": "case_032|q2|core_resident", "case": "case_032", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_032|q3|random_search", "case": "case_032", "q": 3, "algo": "random_search", "mk": 12851, "sp": 3.2249, "solve_s": 0.1}
+{"key": "case_032|q3|core_resident", "case": "case_032", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_033|q1|random_search", "case": "case_033", "q": 1, "algo": "random_search", "mk": 671755, "sp": 2.6411, "solve_s": 3.2}
+{"key": "case_033|q1|core_resident", "case": "case_033", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_033|q2|random_search", "case": "case_033", "q": 2, "algo": "random_search", "mk": 600362, "sp": 2.9552, "solve_s": 1.3}
+{"key": "case_033|q2|core_resident", "case": "case_033", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_033|q3|random_search", "case": "case_033", "q": 3, "algo": "random_search", "mk": 629185, "sp": 2.8198, "solve_s": 1.3}
+{"key": "case_033|q3|core_resident", "case": "case_033", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_034|q1|random_search", "case": "case_034", "q": 1, "algo": "random_search", "mk": 331378, "sp": 2.5439, "solve_s": 2.8}
+{"key": "case_034|q1|core_resident", "case": "case_034", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_034|q2|random_search", "case": "case_034", "q": 2, "algo": "random_search", "mk": 300327, "sp": 2.8069, "solve_s": 1.1}
+{"key": "case_034|q2|core_resident", "case": "case_034", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_034|q3|random_search", "case": "case_034", "q": 3, "algo": "random_search", "mk": 300221, "sp": 2.8079, "solve_s": 1.1}
+{"key": "case_034|q3|core_resident", "case": "case_034", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_035|q1|random_search", "case": "case_035", "q": 1, "algo": "random_search", "mk": 140966, "sp": 1.2029, "solve_s": 1.1}
+{"key": "case_035|q1|core_resident", "case": "case_035", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_035|q2|random_search", "case": "case_035", "q": 2, "algo": "random_search", "mk": 137441, "sp": 1.2338, "solve_s": 0.8}
+{"key": "case_035|q2|core_resident", "case": "case_035", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_035|q3|random_search", "case": "case_035", "q": 3, "algo": "random_search", "mk": 137441, "sp": 1.2338, "solve_s": 0.8}
+{"key": "case_035|q3|core_resident", "case": "case_035", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_036|q1|random_search", "case": "case_036", "q": 1, "algo": "random_search", "mk": 462338, "sp": 2.0148, "solve_s": 1.7}
+{"key": "case_036|q1|core_resident", "case": "case_036", "q": 1, "algo": "core_resident", "mk": 462338, "sp": 2.0148, "solve_s": 2.1}
+{"key": "case_036|q2|random_search", "case": "case_036", "q": 2, "algo": "random_search", "mk": 423605, "sp": 2.199, "solve_s": 0.9}
+{"key": "case_036|q2|core_resident", "case": "case_036", "q": 2, "algo": "core_resident", "mk": 423605, "sp": 2.199, "solve_s": 1.2}
+{"key": "case_036|q3|random_search", "case": "case_036", "q": 3, "algo": "random_search", "mk": 423605, "sp": 2.199, "solve_s": 0.9}
+{"key": "case_036|q3|core_resident", "case": "case_036", "q": 3, "algo": "core_resident", "mk": 423605, "sp": 2.199, "solve_s": 1.0}
+{"key": "case_037|q1|random_search", "case": "case_037", "q": 1, "algo": "random_search", "mk": 115883, "sp": 1.8122, "solve_s": 0.3}
+{"key": "case_037|q1|core_resident", "case": "case_037", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_037|q2|random_search", "case": "case_037", "q": 2, "algo": "random_search", "mk": 45597, "sp": 4.6056, "solve_s": 0.1}
+{"key": "case_037|q2|core_resident", "case": "case_037", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_037|q3|random_search", "case": "case_037", "q": 3, "algo": "random_search", "mk": 45597, "sp": 4.6056, "solve_s": 0.1}
+{"key": "case_037|q3|core_resident", "case": "case_037", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_038|q1|random_search", "case": "case_038", "q": 1, "algo": "random_search", "mk": 526966, "sp": 2.5895, "solve_s": 8.0}
+{"key": "case_038|q1|core_resident", "case": "case_038", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_038|q2|random_search", "case": "case_038", "q": 2, "algo": "random_search", "mk": 481446, "sp": 2.8343, "solve_s": 2.2}
+{"key": "case_038|q2|core_resident", "case": "case_038", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_038|q3|random_search", "case": "case_038", "q": 3, "algo": "random_search", "mk": 461922, "sp": 2.9541, "solve_s": 2.6}
+{"key": "case_038|q3|core_resident", "case": "case_038", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_039|q1|random_search", "case": "case_039", "q": 1, "algo": "random_search", "mk": 727449, "sp": 1.973, "solve_s": 5.4}
+{"key": "case_039|q1|core_resident", "case": "case_039", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_039|q2|random_search", "case": "case_039", "q": 2, "algo": "random_search", "mk": 711690, "sp": 2.0167, "solve_s": 2.4}
+{"key": "case_039|q2|core_resident", "case": "case_039", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_039|q3|random_search", "case": "case_039", "q": 3, "algo": "random_search", "mk": 659211, "sp": 2.1772, "solve_s": 2.6}
+{"key": "case_039|q3|core_resident", "case": "case_039", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_040|q1|random_search", "case": "case_040", "q": 1, "algo": "random_search", "mk": 157700, "sp": 1.6072, "solve_s": 0.8}
+{"key": "case_040|q1|core_resident", "case": "case_040", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_040|q2|random_search", "case": "case_040", "q": 2, "algo": "random_search", "mk": 142524, "sp": 1.7783, "solve_s": 0.6}
+{"key": "case_040|q2|core_resident", "case": "case_040", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_040|q3|random_search", "case": "case_040", "q": 3, "algo": "random_search", "mk": 142524, "sp": 1.7783, "solve_s": 0.5}
+{"key": "case_040|q3|core_resident", "case": "case_040", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_041|q1|random_search", "case": "case_041", "q": 1, "algo": "random_search", "mk": 2536731, "sp": 2.3668, "solve_s": 80.7}
+{"key": "case_041|q1|core_resident", "case": "case_041", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_041|q2|random_search", "case": "case_041", "q": 2, "algo": "random_search", "mk": 2462179, "sp": 2.4385, "solve_s": 10.8}
+{"key": "case_041|q2|core_resident", "case": "case_041", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_041|q3|random_search", "case": "case_041", "q": 3, "algo": "random_search", "mk": 2452534, "sp": 2.4481, "solve_s": 11.6}
+{"key": "case_041|q3|core_resident", "case": "case_041", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_042|q1|random_search", "case": "case_042", "q": 1, "algo": "random_search", "mk": 654172, "sp": 2.5784, "solve_s": 4.8}
+{"key": "case_042|q1|core_resident", "case": "case_042", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_042|q2|random_search", "case": "case_042", "q": 2, "algo": "random_search", "mk": 575454, "sp": 2.9311, "solve_s": 1.7}
+{"key": "case_042|q2|core_resident", "case": "case_042", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_042|q3|random_search", "case": "case_042", "q": 3, "algo": "random_search", "mk": 533496, "sp": 3.1617, "solve_s": 2.0}
+{"key": "case_042|q3|core_resident", "case": "case_042", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_043|q1|random_search", "case": "case_043", "q": 1, "algo": "random_search", "mk": 317987, "sp": 2.1311, "solve_s": 5.0}
+{"key": "case_043|q1|core_resident", "case": "case_043", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_043|q2|random_search", "case": "case_043", "q": 2, "algo": "random_search", "mk": 300099, "sp": 2.2581, "solve_s": 2.6}
+{"key": "case_043|q2|core_resident", "case": "case_043", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_043|q3|random_search", "case": "case_043", "q": 3, "algo": "random_search", "mk": 300099, "sp": 2.2581, "solve_s": 2.6}
+{"key": "case_043|q3|core_resident", "case": "case_043", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_044|q1|random_search", "case": "case_044", "q": 1, "algo": "random_search", "mk": 101828, "sp": 1.5164, "solve_s": 0.2}
+{"key": "case_044|q1|core_resident", "case": "case_044", "q": 1, "algo": "core_resident", "mk": 92309, "sp": 1.6727, "solve_s": 0.2}
+{"key": "case_044|q2|random_search", "case": "case_044", "q": 2, "algo": "random_search", "mk": 84854, "sp": 1.8197, "solve_s": 0.2}
+{"key": "case_044|q2|core_resident", "case": "case_044", "q": 2, "algo": "core_resident", "mk": 87679, "sp": 1.761, "solve_s": 0.2}
+{"key": "case_044|q3|random_search", "case": "case_044", "q": 3, "algo": "random_search", "mk": 82353, "sp": 1.8749, "solve_s": 0.2}
+{"key": "case_044|q3|core_resident", "case": "case_044", "q": 3, "algo": "core_resident", "mk": 85932, "sp": 1.7969, "solve_s": 0.2}
+{"key": "case_045|q1|random_search", "case": "case_045", "q": 1, "algo": "random_search", "mk": 93537, "sp": 1.3429, "solve_s": 0.5}
+{"key": "case_045|q1|core_resident", "case": "case_045", "q": 1, "algo": "core_resident", "mk": 87844, "sp": 1.43, "solve_s": 0.5}
+{"key": "case_045|q2|random_search", "case": "case_045", "q": 2, "algo": "random_search", "mk": 43422, "sp": 2.8929, "solve_s": 0.3}
+{"key": "case_045|q2|core_resident", "case": "case_045", "q": 2, "algo": "core_resident", "mk": 40947, "sp": 3.0677, "solve_s": 0.3}
+{"key": "case_045|q3|random_search", "case": "case_045", "q": 3, "algo": "random_search", "mk": 37775, "sp": 3.3253, "solve_s": 0.3}
+{"key": "case_045|q3|core_resident", "case": "case_045", "q": 3, "algo": "core_resident", "mk": 35330, "sp": 3.5554, "solve_s": 0.3}
+{"key": "case_046|q1|random_search", "case": "case_046", "q": 1, "algo": "random_search", "mk": 118022, "sp": 2.3424, "solve_s": 0.2}
+{"key": "case_046|q1|core_resident", "case": "case_046", "q": 1, "algo": "core_resident", "mk": 113821, "sp": 2.4289, "solve_s": 0.2}
+{"key": "case_046|q2|random_search", "case": "case_046", "q": 2, "algo": "random_search", "mk": 103917, "sp": 2.6603, "solve_s": 0.2}
+{"key": "case_046|q2|core_resident", "case": "case_046", "q": 2, "algo": "core_resident", "mk": 102552, "sp": 2.6958, "solve_s": 0.2}
+{"key": "case_046|q3|random_search", "case": "case_046", "q": 3, "algo": "random_search", "mk": 98924, "sp": 2.7946, "solve_s": 0.2}
+{"key": "case_046|q3|core_resident", "case": "case_046", "q": 3, "algo": "core_resident", "mk": 100532, "sp": 2.7499, "solve_s": 0.2}
+{"key": "case_047|q1|random_search", "case": "case_047", "q": 1, "algo": "random_search", "mk": 332742, "sp": 0.9813, "solve_s": 6.3}
+{"key": "case_047|q1|core_resident", "case": "case_047", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_047|q2|random_search", "case": "case_047", "q": 2, "algo": "random_search", "mk": 319004, "sp": 1.0235, "solve_s": 3.5}
+{"key": "case_047|q2|core_resident", "case": "case_047", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_047|q3|random_search", "case": "case_047", "q": 3, "algo": "random_search", "mk": 318992, "sp": 1.0236, "solve_s": 3.9}
+{"key": "case_047|q3|core_resident", "case": "case_047", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_048|q1|random_search", "case": "case_048", "q": 1, "algo": "random_search", "mk": 225833, "sp": 0.984, "solve_s": 0.4}
+{"key": "case_048|q1|core_resident", "case": "case_048", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_048|q2|random_search", "case": "case_048", "q": 2, "algo": "random_search", "mk": 216107, "sp": 1.0283, "solve_s": 0.3}
+{"key": "case_048|q2|core_resident", "case": "case_048", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_048|q3|random_search", "case": "case_048", "q": 3, "algo": "random_search", "mk": 216107, "sp": 1.0283, "solve_s": 0.3}
+{"key": "case_048|q3|core_resident", "case": "case_048", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_049|q1|random_search", "case": "case_049", "q": 1, "algo": "random_search", "mk": 166595, "sp": 1.1782, "solve_s": 1.1}
+{"key": "case_049|q1|core_resident", "case": "case_049", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_049|q2|random_search", "case": "case_049", "q": 2, "algo": "random_search", "mk": 156123, "sp": 1.2572, "solve_s": 0.9}
+{"key": "case_049|q2|core_resident", "case": "case_049", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_049|q3|random_search", "case": "case_049", "q": 3, "algo": "random_search", "mk": 156123, "sp": 1.2572, "solve_s": 1.0}
+{"key": "case_049|q3|core_resident", "case": "case_049", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_050|q1|random_search", "case": "case_050", "q": 1, "algo": "random_search", "mk": 105416, "sp": 1.42, "solve_s": 1.5}
+{"key": "case_050|q1|core_resident", "case": "case_050", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_050|q2|random_search", "case": "case_050", "q": 2, "algo": "random_search", "mk": 98008, "sp": 1.5273, "solve_s": 1.1}
+{"key": "case_050|q2|core_resident", "case": "case_050", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_050|q3|random_search", "case": "case_050", "q": 3, "algo": "random_search", "mk": 98008, "sp": 1.5273, "solve_s": 0.9}
+{"key": "case_050|q3|core_resident", "case": "case_050", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_051|q1|random_search", "case": "case_051", "q": 1, "algo": "random_search", "mk": 615378, "sp": 0.9874, "solve_s": 0.3}
+{"key": "case_051|q1|core_resident", "case": "case_051", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_051|q2|random_search", "case": "case_051", "q": 2, "algo": "random_search", "mk": 611684, "sp": 0.9934, "solve_s": 0.2}
+{"key": "case_051|q2|core_resident", "case": "case_051", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_051|q3|random_search", "case": "case_051", "q": 3, "algo": "random_search", "mk": 611269, "sp": 0.994, "solve_s": 0.2}
+{"key": "case_051|q3|core_resident", "case": "case_051", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_052|q1|random_search", "case": "case_052", "q": 1, "algo": "random_search", "mk": 132195, "sp": 1.3639, "solve_s": 0.3}
+{"key": "case_052|q1|core_resident", "case": "case_052", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_052|q2|random_search", "case": "case_052", "q": 2, "algo": "random_search", "mk": 81411, "sp": 2.2147, "solve_s": 0.2}
+{"key": "case_052|q2|core_resident", "case": "case_052", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_052|q3|random_search", "case": "case_052", "q": 3, "algo": "random_search", "mk": 81411, "sp": 2.2147, "solve_s": 0.2}
+{"key": "case_052|q3|core_resident", "case": "case_052", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_053|q1|random_search", "case": "case_053", "q": 1, "algo": "random_search", "mk": 1308651, "sp": 1.1253, "solve_s": 4.7}
+{"key": "case_053|q1|core_resident", "case": "case_053", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_053|q2|random_search", "case": "case_053", "q": 2, "algo": "random_search", "mk": 1296846, "sp": 1.1356, "solve_s": 3.5}
+{"key": "case_053|q2|core_resident", "case": "case_053", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_053|q3|random_search", "case": "case_053", "q": 3, "algo": "random_search", "mk": 1260046, "sp": 1.1688, "solve_s": 3.1}
+{"key": "case_053|q3|core_resident", "case": "case_053", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_054|q1|random_search", "case": "case_054", "q": 1, "algo": "random_search", "mk": 514486, "sp": 1.5842, "solve_s": 9.3}
+{"key": "case_054|q1|core_resident", "case": "case_054", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_054|q2|random_search", "case": "case_054", "q": 2, "algo": "random_search", "mk": 505654, "sp": 1.6119, "solve_s": 4.8}
+{"key": "case_054|q2|core_resident", "case": "case_054", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_054|q3|random_search", "case": "case_054", "q": 3, "algo": "random_search", "mk": 505648, "sp": 1.6119, "solve_s": 5.3}
+{"key": "case_054|q3|core_resident", "case": "case_054", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_055|q1|random_search", "case": "case_055", "q": 1, "algo": "random_search", "mk": 88207, "sp": 1.3472, "solve_s": 0.4}
+{"key": "case_055|q1|core_resident", "case": "case_055", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_055|q2|random_search", "case": "case_055", "q": 2, "algo": "random_search", "mk": 63947, "sp": 1.8583, "solve_s": 0.2}
+{"key": "case_055|q2|core_resident", "case": "case_055", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_055|q3|random_search", "case": "case_055", "q": 3, "algo": "random_search", "mk": 63741, "sp": 1.8643, "solve_s": 0.2}
+{"key": "case_055|q3|core_resident", "case": "case_055", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_056|q1|random_search", "case": "case_056", "q": 1, "algo": "random_search", "mk": 259083, "sp": 1.0703, "solve_s": 2.4}
+{"key": "case_056|q1|core_resident", "case": "case_056", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_056|q2|random_search", "case": "case_056", "q": 2, "algo": "random_search", "mk": 250997, "sp": 1.1047, "solve_s": 1.9}
+{"key": "case_056|q2|core_resident", "case": "case_056", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_056|q3|random_search", "case": "case_056", "q": 3, "algo": "random_search", "mk": 250997, "sp": 1.1047, "solve_s": 1.7}
+{"key": "case_056|q3|core_resident", "case": "case_056", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_057|q1|random_search", "case": "case_057", "q": 1, "algo": "random_search", "mk": 50585, "sp": 1.1807, "solve_s": 0.2}
+{"key": "case_057|q1|core_resident", "case": "case_057", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_057|q2|random_search", "case": "case_057", "q": 2, "algo": "random_search", "mk": 25569, "sp": 2.3359, "solve_s": 0.2}
+{"key": "case_057|q2|core_resident", "case": "case_057", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_057|q3|random_search", "case": "case_057", "q": 3, "algo": "random_search", "mk": 24631, "sp": 2.4248, "solve_s": 0.2}
+{"key": "case_057|q3|core_resident", "case": "case_057", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_058|q1|random_search", "case": "case_058", "q": 1, "algo": "random_search", "mk": 2730104, "sp": 1.6628, "solve_s": 91.9}
+{"key": "case_058|q1|core_resident", "case": "case_058", "q": 1, "algo": "core_resident", "mk": 2647703, "sp": 1.7146, "solve_s": 40.3}
+{"key": "case_058|q2|random_search", "case": "case_058", "q": 2, "algo": "random_search", "mk": 2723462, "sp": 1.6669, "solve_s": 11.2}
+{"key": "case_058|q2|core_resident", "case": "case_058", "q": 2, "algo": "core_resident", "mk": 2585072, "sp": 1.7561, "solve_s": 16.3}
+{"key": "case_058|q3|random_search", "case": "case_058", "q": 3, "algo": "random_search", "mk": 2647238, "sp": 1.7149, "solve_s": 12.2}
+{"key": "case_058|q3|core_resident", "case": "case_058", "q": 3, "algo": "core_resident", "mk": 2488103, "sp": 1.8246, "solve_s": 16.4}
+{"key": "case_059|q1|random_search", "case": "case_059", "q": 1, "algo": "random_search", "mk": 294126, "sp": 2.8201, "solve_s": 2.1}
+{"key": "case_059|q1|core_resident", "case": "case_059", "q": 1, "algo": "core_resident", "mk": 337087, "sp": 2.4607, "solve_s": 1.8}
+{"key": "case_059|q2|random_search", "case": "case_059", "q": 2, "algo": "random_search", "mk": 245324, "sp": 3.3811, "solve_s": 0.9}
+{"key": "case_059|q2|core_resident", "case": "case_059", "q": 2, "algo": "core_resident", "mk": 272052, "sp": 3.049, "solve_s": 1.3}
+{"key": "case_059|q3|random_search", "case": "case_059", "q": 3, "algo": "random_search", "mk": 216256, "sp": 3.8356, "solve_s": 0.8}
+{"key": "case_059|q3|core_resident", "case": "case_059", "q": 3, "algo": "core_resident", "mk": 230860, "sp": 3.593, "solve_s": 1.2}
+{"key": "case_060|q1|random_search", "case": "case_060", "q": 1, "algo": "random_search", "mk": 407183, "sp": 2.1828, "solve_s": 5.2}
+{"key": "case_060|q1|core_resident", "case": "case_060", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_060|q2|random_search", "case": "case_060", "q": 2, "algo": "random_search", "mk": 322205, "sp": 2.7585, "solve_s": 2.0}
+{"key": "case_060|q2|core_resident", "case": "case_060", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_060|q3|random_search", "case": "case_060", "q": 3, "algo": "random_search", "mk": 307560, "sp": 2.8898, "solve_s": 2.0}
+{"key": "case_060|q3|core_resident", "case": "case_060", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_061|q1|random_search", "case": "case_061", "q": 1, "algo": "random_search", "mk": 67002, "sp": 1.1521, "solve_s": 0.3}
+{"key": "case_061|q1|core_resident", "case": "case_061", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_061|q2|random_search", "case": "case_061", "q": 2, "algo": "random_search", "mk": 47344, "sp": 1.6304, "solve_s": 0.2}
+{"key": "case_061|q2|core_resident", "case": "case_061", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_061|q3|random_search", "case": "case_061", "q": 3, "algo": "random_search", "mk": 47344, "sp": 1.6304, "solve_s": 0.2}
+{"key": "case_061|q3|core_resident", "case": "case_061", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_062|q1|random_search", "case": "case_062", "q": 1, "algo": "random_search", "mk": 1069273, "sp": 2.6699, "solve_s": 47.0}
+{"key": "case_062|q1|core_resident", "case": "case_062", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_062|q2|random_search", "case": "case_062", "q": 2, "algo": "random_search", "mk": 1165828, "sp": 2.4487, "solve_s": 10.7}
+{"key": "case_062|q2|core_resident", "case": "case_062", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_062|q3|random_search", "case": "case_062", "q": 3, "algo": "random_search", "mk": 1165828, "sp": 2.4487, "solve_s": 11.3}
+{"key": "case_062|q3|core_resident", "case": "case_062", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_063|q1|random_search", "case": "case_063", "q": 1, "algo": "random_search", "mk": 358044, "sp": 2.9896, "solve_s": 6.8}
+{"key": "case_063|q1|core_resident", "case": "case_063", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_063|q2|random_search", "case": "case_063", "q": 2, "algo": "random_search", "mk": 345467, "sp": 3.0984, "solve_s": 2.7}
+{"key": "case_063|q2|core_resident", "case": "case_063", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_063|q3|random_search", "case": "case_063", "q": 3, "algo": "random_search", "mk": 345467, "sp": 3.0984, "solve_s": 3.0}
+{"key": "case_063|q3|core_resident", "case": "case_063", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_064|q1|random_search", "case": "case_064", "q": 1, "algo": "random_search", "mk": 23335, "sp": 0.8192, "solve_s": 0.2}
+{"key": "case_064|q1|core_resident", "case": "case_064", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_064|q2|random_search", "case": "case_064", "q": 2, "algo": "random_search", "mk": 18494, "sp": 1.0336, "solve_s": 0.1}
+{"key": "case_064|q2|core_resident", "case": "case_064", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_064|q3|random_search", "case": "case_064", "q": 3, "algo": "random_search", "mk": 18494, "sp": 1.0336, "solve_s": 0.1}
+{"key": "case_064|q3|core_resident", "case": "case_064", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_065|q1|random_search", "case": "case_065", "q": 1, "algo": "random_search", "mk": 46267, "sp": 1.147, "solve_s": 0.1}
+{"key": "case_065|q1|core_resident", "case": "case_065", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_065|q2|random_search", "case": "case_065", "q": 2, "algo": "random_search", "mk": 35730, "sp": 1.4853, "solve_s": 0.1}
+{"key": "case_065|q2|core_resident", "case": "case_065", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_065|q3|random_search", "case": "case_065", "q": 3, "algo": "random_search", "mk": 35712, "sp": 1.486, "solve_s": 0.1}
+{"key": "case_065|q3|core_resident", "case": "case_065", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_066|q1|random_search", "case": "case_066", "q": 1, "algo": "random_search", "mk": 275204, "sp": 1.3047, "solve_s": 1.8}
+{"key": "case_066|q1|core_resident", "case": "case_066", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_066|q2|random_search", "case": "case_066", "q": 2, "algo": "random_search", "mk": 256908, "sp": 1.3977, "solve_s": 1.2}
+{"key": "case_066|q2|core_resident", "case": "case_066", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_066|q3|random_search", "case": "case_066", "q": 3, "algo": "random_search", "mk": 256908, "sp": 1.3977, "solve_s": 1.2}
+{"key": "case_066|q3|core_resident", "case": "case_066", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_067|q1|random_search", "case": "case_067", "q": 1, "algo": "random_search", "mk": 26300734, "sp": 2.4271, "solve_s": 3.9}
+{"key": "case_067|q1|core_resident", "case": "case_067", "q": 1, "algo": "core_resident", "mk": 14954283, "sp": 4.2687, "solve_s": 6.3}
+{"key": "case_067|q2|random_search", "case": "case_067", "q": 2, "algo": "random_search", "mk": 14060838, "sp": 4.5399, "solve_s": 2.6}
+{"key": "case_067|q2|core_resident", "case": "case_067", "q": 2, "algo": "core_resident", "mk": 15175688, "sp": 4.2064, "solve_s": 5.5}
+{"key": "case_067|q3|random_search", "case": "case_067", "q": 3, "algo": "random_search", "mk": 14066822, "sp": 4.538, "solve_s": 2.8}
+{"key": "case_067|q3|core_resident", "case": "case_067", "q": 3, "algo": "core_resident", "mk": 15184869, "sp": 4.2038, "solve_s": 5.0}
+{"key": "case_068|q1|random_search", "case": "case_068", "q": 1, "algo": "random_search", "mk": 306275, "sp": 1.1823, "solve_s": 1.6}
+{"key": "case_068|q1|core_resident", "case": "case_068", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_068|q2|random_search", "case": "case_068", "q": 2, "algo": "random_search", "mk": 298946, "sp": 1.2112, "solve_s": 1.1}
+{"key": "case_068|q2|core_resident", "case": "case_068", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_068|q3|random_search", "case": "case_068", "q": 3, "algo": "random_search", "mk": 298946, "sp": 1.2112, "solve_s": 1.1}
+{"key": "case_068|q3|core_resident", "case": "case_068", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_069|q1|random_search", "case": "case_069", "q": 1, "algo": "random_search", "mk": 24582, "sp": 1.0229, "solve_s": 0.2}
+{"key": "case_069|q1|core_resident", "case": "case_069", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_069|q2|random_search", "case": "case_069", "q": 2, "algo": "random_search", "mk": 20259, "sp": 1.2411, "solve_s": 0.1}
+{"key": "case_069|q2|core_resident", "case": "case_069", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_069|q3|random_search", "case": "case_069", "q": 3, "algo": "random_search", "mk": 20246, "sp": 1.2419, "solve_s": 0.1}
+{"key": "case_069|q3|core_resident", "case": "case_069", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_070|q1|random_search", "case": "case_070", "q": 1, "algo": "random_search", "mk": 101117, "sp": 1.16, "solve_s": 0.3}
+{"key": "case_070|q1|core_resident", "case": "case_070", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_070|q2|random_search", "case": "case_070", "q": 2, "algo": "random_search", "mk": 90565, "sp": 1.2952, "solve_s": 0.1}
+{"key": "case_070|q2|core_resident", "case": "case_070", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_070|q3|random_search", "case": "case_070", "q": 3, "algo": "random_search", "mk": 90544, "sp": 1.2955, "solve_s": 0.2}
+{"key": "case_070|q3|core_resident", "case": "case_070", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_071|q1|random_search", "case": "case_071", "q": 1, "algo": "random_search", "mk": 19920, "sp": 0.9497, "solve_s": 0.2}
+{"key": "case_071|q1|core_resident", "case": "case_071", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_071|q2|random_search", "case": "case_071", "q": 2, "algo": "random_search", "mk": 15286, "sp": 1.2377, "solve_s": 0.1}
+{"key": "case_071|q2|core_resident", "case": "case_071", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_071|q3|random_search", "case": "case_071", "q": 3, "algo": "random_search", "mk": 15250, "sp": 1.2406, "solve_s": 0.1}
+{"key": "case_071|q3|core_resident", "case": "case_071", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_072|q1|random_search", "case": "case_072", "q": 1, "algo": "random_search", "mk": 10502530, "sp": 2.2754, "solve_s": 118.8}
+{"key": "case_072|q1|core_resident", "case": "case_072", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_072|q2|random_search", "case": "case_072", "q": 2, "algo": "random_search", "mk": 10372467, "sp": 2.304, "solve_s": 15.3}
+{"key": "case_072|q2|core_resident", "case": "case_072", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_072|q3|random_search", "case": "case_072", "q": 3, "algo": "random_search", "mk": 10114133, "sp": 2.3628, "solve_s": 18.6}
+{"key": "case_072|q3|core_resident", "case": "case_072", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_073|q1|random_search", "case": "case_073", "q": 1, "algo": "random_search", "mk": 3437231, "sp": 2.9331, "solve_s": 2.1}
+{"key": "case_073|q1|core_resident", "case": "case_073", "q": 1, "algo": "core_resident", "mk": 3285182, "sp": 3.0688, "solve_s": 2.4}
+{"key": "case_073|q2|random_search", "case": "case_073", "q": 2, "algo": "random_search", "mk": 3221397, "sp": 3.1296, "solve_s": 1.4}
+{"key": "case_073|q2|core_resident", "case": "case_073", "q": 2, "algo": "core_resident", "mk": 3307292, "sp": 3.0483, "solve_s": 1.9}
+{"key": "case_073|q3|random_search", "case": "case_073", "q": 3, "algo": "random_search", "mk": 2903680, "sp": 3.472, "solve_s": 1.4}
+{"key": "case_073|q3|core_resident", "case": "case_073", "q": 3, "algo": "core_resident", "mk": 2654325, "sp": 3.7982, "solve_s": 2.1}
+{"key": "case_074|q1|random_search", "case": "case_074", "q": 1, "algo": "random_search", "mk": 518790, "sp": 3.2426, "solve_s": 3.7}
+{"key": "case_074|q1|core_resident", "case": "case_074", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_074|q2|random_search", "case": "case_074", "q": 2, "algo": "random_search", "mk": 495807, "sp": 3.3929, "solve_s": 1.5}
+{"key": "case_074|q2|core_resident", "case": "case_074", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_074|q3|random_search", "case": "case_074", "q": 3, "algo": "random_search", "mk": 452135, "sp": 3.7207, "solve_s": 1.5}
+{"key": "case_074|q3|core_resident", "case": "case_074", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_075|q1|random_search", "case": "case_075", "q": 1, "algo": "random_search", "mk": 1436092, "sp": 1.004, "solve_s": 2.9}
+{"key": "case_075|q1|core_resident", "case": "case_075", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_075|q2|random_search", "case": "case_075", "q": 2, "algo": "random_search", "mk": 1375462, "sp": 1.0482, "solve_s": 1.9}
+{"key": "case_075|q2|core_resident", "case": "case_075", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_075|q3|random_search", "case": "case_075", "q": 3, "algo": "random_search", "mk": 1375442, "sp": 1.0483, "solve_s": 2.0}
+{"key": "case_075|q3|core_resident", "case": "case_075", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_076|q1|random_search", "case": "case_076", "q": 1, "algo": "random_search", "mk": 2737568, "sp": 2.2593, "solve_s": 289.6}
+{"key": "case_076|q1|core_resident", "case": "case_076", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_076|q2|random_search", "case": "case_076", "q": 2, "algo": "random_search", "mk": 2759873, "sp": 2.2411, "solve_s": 18.5}
+{"key": "case_076|q2|core_resident", "case": "case_076", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_076|q3|random_search", "case": "case_076", "q": 3, "algo": "random_search", "mk": 2718552, "sp": 2.2751, "solve_s": 18.4}
+{"key": "case_076|q3|core_resident", "case": "case_076", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_077|q1|random_search", "case": "case_077", "q": 1, "algo": "random_search", "mk": 366174, "sp": 1.3527, "solve_s": 1.0}
+{"key": "case_077|q1|core_resident", "case": "case_077", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_077|q2|random_search", "case": "case_077", "q": 2, "algo": "random_search", "mk": 362206, "sp": 1.3675, "solve_s": 0.6}
+{"key": "case_077|q2|core_resident", "case": "case_077", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_077|q3|random_search", "case": "case_077", "q": 3, "algo": "random_search", "mk": 362204, "sp": 1.3675, "solve_s": 0.7}
+{"key": "case_077|q3|core_resident", "case": "case_077", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_078|q1|random_search", "case": "case_078", "q": 1, "algo": "random_search", "mk": 1027230, "sp": 2.2353, "solve_s": 0.2}
+{"key": "case_078|q1|core_resident", "case": "case_078", "q": 1, "algo": "core_resident", "mk": 620532, "sp": 3.7003, "solve_s": 0.1}
+{"key": "case_078|q2|random_search", "case": "case_078", "q": 2, "algo": "random_search", "mk": 606579, "sp": 3.7854, "solve_s": 0.1}
+{"key": "case_078|q2|core_resident", "case": "case_078", "q": 2, "algo": "core_resident", "mk": 606569, "sp": 3.7855, "solve_s": 0.1}
+{"key": "case_078|q3|random_search", "case": "case_078", "q": 3, "algo": "random_search", "mk": 573940, "sp": 4.0007, "solve_s": 0.1}
+{"key": "case_078|q3|core_resident", "case": "case_078", "q": 3, "algo": "core_resident", "mk": 603565, "sp": 3.8043, "solve_s": 0.1}
+{"key": "case_079|q1|random_search", "case": "case_079", "q": 1, "algo": "random_search", "mk": 10380437, "sp": 2.9914, "solve_s": 69.5}
+{"key": "case_079|q1|core_resident", "case": "case_079", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_079|q2|random_search", "case": "case_079", "q": 2, "algo": "random_search", "mk": 10638916, "sp": 2.9187, "solve_s": 11.6}
+{"key": "case_079|q2|core_resident", "case": "case_079", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_079|q3|random_search", "case": "case_079", "q": 3, "algo": "random_search", "mk": 10460069, "sp": 2.9686, "solve_s": 12.9}
+{"key": "case_079|q3|core_resident", "case": "case_079", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_080|q1|random_search", "case": "case_080", "q": 1, "algo": "random_search", "mk": 170882, "sp": 1.7096, "solve_s": 0.5}
+{"key": "case_080|q1|core_resident", "case": "case_080", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_080|q2|random_search", "case": "case_080", "q": 2, "algo": "random_search", "mk": 105704, "sp": 2.7637, "solve_s": 0.2}
+{"key": "case_080|q2|core_resident", "case": "case_080", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_080|q3|random_search", "case": "case_080", "q": 3, "algo": "random_search", "mk": 93401, "sp": 3.1278, "solve_s": 0.3}
+{"key": "case_080|q3|core_resident", "case": "case_080", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_081|q1|random_search", "case": "case_081", "q": 1, "algo": "random_search", "mk": 77133, "sp": 1.968, "solve_s": 1.6}
+{"key": "case_081|q1|core_resident", "case": "case_081", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_081|q2|random_search", "case": "case_081", "q": 2, "algo": "random_search", "mk": 40141, "sp": 3.7815, "solve_s": 0.6}
+{"key": "case_081|q2|core_resident", "case": "case_081", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_081|q3|random_search", "case": "case_081", "q": 3, "algo": "random_search", "mk": 39609, "sp": 3.8323, "solve_s": 0.6}
+{"key": "case_081|q3|core_resident", "case": "case_081", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_082|q1|random_search", "case": "case_082", "q": 1, "algo": "random_search", "mk": 676850, "sp": 1.0653, "solve_s": 0.9}
+{"key": "case_082|q1|core_resident", "case": "case_082", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_082|q2|random_search", "case": "case_082", "q": 2, "algo": "random_search", "mk": 659420, "sp": 1.0934, "solve_s": 0.6}
+{"key": "case_082|q2|core_resident", "case": "case_082", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_082|q3|random_search", "case": "case_082", "q": 3, "algo": "random_search", "mk": 659420, "sp": 1.0934, "solve_s": 0.7}
+{"key": "case_082|q3|core_resident", "case": "case_082", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_083|q1|random_search", "case": "case_083", "q": 1, "algo": "random_search", "mk": 401313, "sp": 2.6363, "solve_s": 0.8}
+{"key": "case_083|q1|core_resident", "case": "case_083", "q": 1, "algo": "core_resident", "mk": 258706, "sp": 4.0896, "solve_s": 1.0}
+{"key": "case_083|q2|random_search", "case": "case_083", "q": 2, "algo": "random_search", "mk": 210310, "sp": 5.0306, "solve_s": 0.6}
+{"key": "case_083|q2|core_resident", "case": "case_083", "q": 2, "algo": "core_resident", "mk": 227066, "sp": 4.6594, "solve_s": 1.0}
+{"key": "case_083|q3|random_search", "case": "case_083", "q": 3, "algo": "random_search", "mk": 197043, "sp": 5.3694, "solve_s": 0.7}
+{"key": "case_083|q3|core_resident", "case": "case_083", "q": 3, "algo": "core_resident", "mk": 220657, "sp": 4.7947, "solve_s": 0.8}
+{"key": "case_084|q1|random_search", "case": "case_084", "q": 1, "algo": "random_search", "mk": 772014, "sp": 3.2479, "solve_s": 7.8}
+{"key": "case_084|q1|core_resident", "case": "case_084", "q": 1, "algo": "core_resident", "mk": 558079, "sp": 4.4929, "solve_s": 8.4}
+{"key": "case_084|q2|random_search", "case": "case_084", "q": 2, "algo": "random_search", "mk": 568779, "sp": 4.4084, "solve_s": 3.4}
+{"key": "case_084|q2|core_resident", "case": "case_084", "q": 2, "algo": "core_resident", "mk": 554853, "sp": 4.5191, "solve_s": 5.5}
+{"key": "case_084|q3|random_search", "case": "case_084", "q": 3, "algo": "random_search", "mk": 568779, "sp": 4.4084, "solve_s": 3.7}
+{"key": "case_084|q3|core_resident", "case": "case_084", "q": 3, "algo": "core_resident", "mk": 554853, "sp": 4.5191, "solve_s": 6.1}
+{"key": "case_085|q1|random_search", "case": "case_085", "q": 1, "algo": "random_search", "mk": 3181227, "sp": 1.0021, "solve_s": 12.6}
+{"key": "case_085|q1|core_resident", "case": "case_085", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_085|q2|random_search", "case": "case_085", "q": 2, "algo": "random_search", "mk": 3170581, "sp": 1.0055, "solve_s": 5.6}
+{"key": "case_085|q2|core_resident", "case": "case_085", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_085|q3|random_search", "case": "case_085", "q": 3, "algo": "random_search", "mk": 3170581, "sp": 1.0055, "solve_s": 6.0}
+{"key": "case_085|q3|core_resident", "case": "case_085", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_086|q1|random_search", "case": "case_086", "q": 1, "algo": "random_search", "mk": 114894, "sp": 1.0305, "solve_s": 1.3}
+{"key": "case_086|q1|core_resident", "case": "case_086", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_086|q2|random_search", "case": "case_086", "q": 2, "algo": "random_search", "mk": 108071, "sp": 1.0956, "solve_s": 1.0}
+{"key": "case_086|q2|core_resident", "case": "case_086", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_086|q3|random_search", "case": "case_086", "q": 3, "algo": "random_search", "mk": 108071, "sp": 1.0956, "solve_s": 1.0}
+{"key": "case_086|q3|core_resident", "case": "case_086", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_087|q1|random_search", "case": "case_087", "q": 1, "algo": "random_search", "mk": 3436330, "sp": 1.1565, "solve_s": 21.3}
+{"key": "case_087|q1|core_resident", "case": "case_087", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_087|q2|random_search", "case": "case_087", "q": 2, "algo": "random_search", "mk": 2133729, "sp": 1.8625, "solve_s": 8.1}
+{"key": "case_087|q2|core_resident", "case": "case_087", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_087|q3|random_search", "case": "case_087", "q": 3, "algo": "random_search", "mk": 2118752, "sp": 1.8757, "solve_s": 9.0}
+{"key": "case_087|q3|core_resident", "case": "case_087", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_088|q1|random_search", "case": "case_088", "q": 1, "algo": "random_search", "mk": 213795, "sp": 1.1395, "solve_s": 0.7}
+{"key": "case_088|q1|core_resident", "case": "case_088", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_088|q2|random_search", "case": "case_088", "q": 2, "algo": "random_search", "mk": 207441, "sp": 1.1744, "solve_s": 0.4}
+{"key": "case_088|q2|core_resident", "case": "case_088", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_088|q3|random_search", "case": "case_088", "q": 3, "algo": "random_search", "mk": 207441, "sp": 1.1744, "solve_s": 0.4}
+{"key": "case_088|q3|core_resident", "case": "case_088", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_089|q1|random_search", "case": "case_089", "q": 1, "algo": "random_search", "mk": 154525, "sp": 4.4853, "solve_s": 0.7}
+{"key": "case_089|q1|core_resident", "case": "case_089", "q": 1, "algo": "core_resident", "mk": 154525, "sp": 4.4853, "solve_s": 1.3}
+{"key": "case_089|q2|random_search", "case": "case_089", "q": 2, "algo": "random_search", "mk": 139940, "sp": 4.9528, "solve_s": 0.7}
+{"key": "case_089|q2|core_resident", "case": "case_089", "q": 2, "algo": "core_resident", "mk": 139940, "sp": 4.9528, "solve_s": 1.3}
+{"key": "case_089|q3|random_search", "case": "case_089", "q": 3, "algo": "random_search", "mk": 139940, "sp": 4.9528, "solve_s": 0.6}
+{"key": "case_089|q3|core_resident", "case": "case_089", "q": 3, "algo": "core_resident", "mk": 139940, "sp": 4.9528, "solve_s": 1.2}
+{"key": "case_090|q1|random_search", "case": "case_090", "q": 1, "algo": "random_search", "mk": 507500, "sp": 2.3219, "solve_s": 0.3}
+{"key": "case_090|q1|core_resident", "case": "case_090", "q": 1, "algo": "core_resident", "mk": 445518, "sp": 2.6449, "solve_s": 0.3}
+{"key": "case_090|q2|random_search", "case": "case_090", "q": 2, "algo": "random_search", "mk": 437022, "sp": 2.6963, "solve_s": 0.2}
+{"key": "case_090|q2|core_resident", "case": "case_090", "q": 2, "algo": "core_resident", "mk": 427454, "sp": 2.7567, "solve_s": 0.2}
+{"key": "case_090|q3|random_search", "case": "case_090", "q": 3, "algo": "random_search", "mk": 312931, "sp": 3.7656, "solve_s": 0.2}
+{"key": "case_090|q3|core_resident", "case": "case_090", "q": 3, "algo": "core_resident", "mk": 357196, "sp": 3.2989, "solve_s": 0.2}
+{"key": "case_091|q1|random_search", "case": "case_091", "q": 1, "algo": "random_search", "mk": 3889507, "sp": 2.3619, "solve_s": 161.6}
+{"key": "case_091|q1|core_resident", "case": "case_091", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_091|q2|random_search", "case": "case_091", "q": 2, "algo": "random_search", "mk": 3552940, "sp": 2.5857, "solve_s": 18.2}
+{"key": "case_091|q2|core_resident", "case": "case_091", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_091|q3|random_search", "case": "case_091", "q": 3, "algo": "random_search", "mk": 3601462, "sp": 2.5508, "solve_s": 19.3}
+{"key": "case_091|q3|core_resident", "case": "case_091", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_092|q1|random_search", "case": "case_092", "q": 1, "algo": "random_search", "mk": 1300052, "sp": 3.7041, "solve_s": 9.1}
+{"key": "case_092|q1|core_resident", "case": "case_092", "q": 1, "algo": "core_resident", "mk": 917835, "sp": 5.2466, "solve_s": 15.2}
+{"key": "case_092|q2|random_search", "case": "case_092", "q": 2, "algo": "random_search", "mk": 850157, "sp": 5.6643, "solve_s": 4.8}
+{"key": "case_092|q2|core_resident", "case": "case_092", "q": 2, "algo": "core_resident", "mk": 851878, "sp": 5.6529, "solve_s": 12.3}
+{"key": "case_092|q3|random_search", "case": "case_092", "q": 3, "algo": "random_search", "mk": 834836, "sp": 5.7683, "solve_s": 4.8}
+{"key": "case_092|q3|core_resident", "case": "case_092", "q": 3, "algo": "core_resident", "mk": 831155, "sp": 5.7938, "solve_s": 12.4}
+{"key": "case_093|q1|random_search", "case": "case_093", "q": 1, "algo": "random_search", "mk": 35767, "sp": 2.0747, "solve_s": 0.1}
+{"key": "case_093|q1|core_resident", "case": "case_093", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_093|q2|random_search", "case": "case_093", "q": 2, "algo": "random_search", "mk": 18292, "sp": 4.0567, "solve_s": 0.1}
+{"key": "case_093|q2|core_resident", "case": "case_093", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_093|q3|random_search", "case": "case_093", "q": 3, "algo": "random_search", "mk": 18128, "sp": 4.0934, "solve_s": 0.1}
+{"key": "case_093|q3|core_resident", "case": "case_093", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_094|q1|random_search", "case": "case_094", "q": 1, "algo": "random_search", "mk": 43949, "sp": 2.1591, "solve_s": 0.1}
+{"key": "case_094|q1|core_resident", "case": "case_094", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_094|q2|random_search", "case": "case_094", "q": 2, "algo": "random_search", "mk": 32568, "sp": 2.9137, "solve_s": 0.1}
+{"key": "case_094|q2|core_resident", "case": "case_094", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_094|q3|random_search", "case": "case_094", "q": 3, "algo": "random_search", "mk": 32563, "sp": 2.9141, "solve_s": 0.1}
+{"key": "case_094|q3|core_resident", "case": "case_094", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_095|q1|random_search", "case": "case_095", "q": 1, "algo": "random_search", "mk": 812977, "sp": 2.5645, "solve_s": 1.4}
+{"key": "case_095|q1|core_resident", "case": "case_095", "q": 1, "algo": "core_resident", "mk": 761614, "sp": 2.7374, "solve_s": 1.7}
+{"key": "case_095|q2|random_search", "case": "case_095", "q": 2, "algo": "random_search", "mk": 683801, "sp": 3.0489, "solve_s": 0.9}
+{"key": "case_095|q2|core_resident", "case": "case_095", "q": 2, "algo": "core_resident", "mk": 690652, "sp": 3.0187, "solve_s": 1.2}
+{"key": "case_095|q3|random_search", "case": "case_095", "q": 3, "algo": "random_search", "mk": 683801, "sp": 3.0489, "solve_s": 0.9}
+{"key": "case_095|q3|core_resident", "case": "case_095", "q": 3, "algo": "core_resident", "mk": 690652, "sp": 3.0187, "solve_s": 1.4}
+{"key": "case_096|q1|random_search", "case": "case_096", "q": 1, "algo": "random_search", "mk": 52302, "sp": 1.6098, "solve_s": 0.2}
+{"key": "case_096|q1|core_resident", "case": "case_096", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_096|q2|random_search", "case": "case_096", "q": 2, "algo": "random_search", "mk": 36350, "sp": 2.3162, "solve_s": 0.1}
+{"key": "case_096|q2|core_resident", "case": "case_096", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_096|q3|random_search", "case": "case_096", "q": 3, "algo": "random_search", "mk": 36350, "sp": 2.3162, "solve_s": 0.1}
+{"key": "case_096|q3|core_resident", "case": "case_096", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_097|q1|random_search", "case": "case_097", "q": 1, "algo": "random_search", "mk": 3125519, "sp": 3.6767, "solve_s": 9.5}
+{"key": "case_097|q1|core_resident", "case": "case_097", "q": 1, "algo": "core_resident", "mk": 2798260, "sp": 4.1067, "solve_s": 5.8}
+{"key": "case_097|q2|random_search", "case": "case_097", "q": 2, "algo": "random_search", "mk": 3009129, "sp": 3.8189, "solve_s": 2.5}
+{"key": "case_097|q2|core_resident", "case": "case_097", "q": 2, "algo": "core_resident", "mk": 2776363, "sp": 4.1391, "solve_s": 3.6}
+{"key": "case_097|q3|random_search", "case": "case_097", "q": 3, "algo": "random_search", "mk": 2987141, "sp": 3.847, "solve_s": 2.6}
+{"key": "case_097|q3|core_resident", "case": "case_097", "q": 3, "algo": "core_resident", "mk": 2764115, "sp": 4.1574, "solve_s": 3.7}
+{"key": "case_098|q1|random_search", "case": "case_098", "q": 1, "algo": "random_search", "mk": 121850, "sp": 1.4561, "solve_s": 0.3}
+{"key": "case_098|q1|core_resident", "case": "case_098", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_098|q2|random_search", "case": "case_098", "q": 2, "algo": "random_search", "mk": 100987, "sp": 1.757, "solve_s": 0.2}
+{"key": "case_098|q2|core_resident", "case": "case_098", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_098|q3|random_search", "case": "case_098", "q": 3, "algo": "random_search", "mk": 100702, "sp": 1.7619, "solve_s": 0.2}
+{"key": "case_098|q3|core_resident", "case": "case_098", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_099|q1|random_search", "case": "case_099", "q": 1, "algo": "random_search", "mk": 480154, "sp": 3.3802, "solve_s": 6.6}
+{"key": "case_099|q1|core_resident", "case": "case_099", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_099|q2|random_search", "case": "case_099", "q": 2, "algo": "random_search", "mk": 425180, "sp": 3.8172, "solve_s": 1.9}
+{"key": "case_099|q2|core_resident", "case": "case_099", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_099|q3|random_search", "case": "case_099", "q": 3, "algo": "random_search", "mk": 419238, "sp": 3.8713, "solve_s": 1.8}
+{"key": "case_099|q3|core_resident", "case": "case_099", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_100|q1|random_search", "case": "case_100", "q": 1, "algo": "random_search", "mk": 85721, "sp": 1.7641, "solve_s": 0.3}
+{"key": "case_100|q1|core_resident", "case": "case_100", "q": 1, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_100|q2|random_search", "case": "case_100", "q": 2, "algo": "random_search", "mk": 73287, "sp": 2.0634, "solve_s": 0.2}
+{"key": "case_100|q2|core_resident", "case": "case_100", "q": 2, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
+{"key": "case_100|q3|random_search", "case": "case_100", "q": 3, "algo": "random_search", "mk": 73287, "sp": 2.0634, "solve_s": 0.2}
+{"key": "case_100|q3|core_resident", "case": "case_100", "q": 3, "algo": "core_resident", "status": "ERR:contracted subgraph graph contains a cycle"}
